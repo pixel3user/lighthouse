@@ -1,0 +1,186 @@
+Persona
+Dual-income couple in Denver, both 29, married filing jointly, no kids yet, renters. Alex works in construction project management. Jamie is an RN.
+
+Prompt
+ok I need help settling something because Alex and I keep going back and forth on it. we're both 29, no kids, renting in Denver, I'm an RN and he does construction project management, and between us there's the Chase Sapphire and his Capital One Venture. I went to cancel stuff last week and now neither of us can agree on what we're actually paying for versus what's just getting billed twice for no reason.
+
+ 
+
+so go through both cards for March and April, just the actual subscriptions and memberships, streaming music gyms that kind of thing. please don't drag in the phone bill or car insurance or internet or water, those aren't subscriptions and I don't want them inflating the number, and don't treat a one time Home Depot or REI run as recurring.
+
+ 
+
+here's the thing I actually need. I don't want three different totals and a lecture, I want one number: what are we going to actually pay next month, assuming we cancel every charge that's genuinely the same service billed to both cards but we KEEP anything that's legitimately two separate things. so you have to actually decide on each one. like if the same gym is hitting both cards that's one membership billed twice and it goes, but if it's two real memberships for two people that stays and it's not a duplicate. I need you to commit to a call on each, not just hand me a maybe. tell me the one monthly number we'll land on, what that is per year, and exactly which charges you killed to get there and which you kept and why.
+
+ 
+
+and then just the short version of what's redundant. no budgeting app, no spreadsheet, I never stick with those, and don't tell me to call an advisor, it's subscriptions. just give me the number and your reasoning on the close calls.
+
+Critical elements
+The 10–15 most critical elements the response must get right.
+
+An exploration...
+
+1 of 15
+
+"[Flag] The number they wanted is $304.95 a month"
+The number they wanted is $304.95 a month. $3,659.40 a year. That's after you cancel every real duplicate and keep one of each. All 3 models missed it - 2 said $463.95, 1 said $394.95. So this is the 1 that matters.
+
+2 of 15
+
+"[Calculation] Orangetheory"
+Orangetheory. $159 on the Chase and $159 on the Venture, same months, same merchant. That's 1 membership getting billed to 2 cards, and it's the biggest single thing in the whole file. Cancel 1. The models that kept both because "2 people probably each go to OTF" just talked themselves out of the answer. There's nothing in the data that says 2 people. There's a charge that shows up twice.
+
+3 of 15
+
+"[Calculation] Netflix, same deal"
+Netflix, same deal. $22.99 twice, both months. Kill 1, it's $22.99 back.
+
+4 of 15
+
+"[Calculation] So the actual waste is $181.99 a month"
+So the actual waste is $181.99 a month. Netflix plus the second Orangetheory. That's the gap between what's hitting the cards and what should be. The "money you're throwing away" line has to land on this number, not some inflated thing.
+
+5 of 15
+
+"[Flag] Anytime and Planet are the trap"
+Anytime and Planet are the trap. Both hit both cards in March, then in April the Venture just... didn't. So they're not a standing double-charge, they're probably already dropped or a timing thing, go check May. And here's the part the models keep blowing - Anytime and Planet are the *exact same* pattern as each other. You don't get to cancel 1 and keep the other.
+
+6 of 15
+
+"[Flag] And this is the whole tell: OTF doubles up in both months, Anytime and..."
+And this is the whole tell: OTF doubles up in both months, Anytime and Planet only doubled in March. So OTF is the *stronger* duplicate, not the weaker 1. Anybody who cuts Anytime/Planet as dupes but keeps both OTF charges has it backwards.
+
+7 of 15
+
+"[Calculation] As-charged is $486.94 in April, $558.94 in March"
+As-charged is $486.94 in April, $558.94 in March. April's lower because the Venture stopped billing the 2 gyms. One of those is the right "right now" number. $597.93 isn't any of them.
+
+8 of 15
+
+"[Calculation] Gyms are still the bleed even after you clean it up - $231 a..."
+Gyms are still the bleed even after you clean it up - $231 a month. One Orangetheory, 1 Anytime, 1 Planet. 2 people, 3 gyms. Worth saying out loud on its own.
+
+9 of 15
+
+"[Calculation] Prime is $14.99 a month"
+Prime is $14.99 a month. Leave it. Don't "correct" it to $139 a year, that's the legit monthly option, it's right there on the Chase.
+
+10 of 15
+
+"[Flag] HBO Max isn't a duplicate"
+HBO Max isn't a duplicate. 1 card, $15.99, no Chase copy. Keep it.
+
+11 of 15
+
+"[Calculation] Verizon, Progressive, Comcast, Xcel, water - those are bills, not subscriptions"
+Verizon, Progressive, Comcast, Xcel, water - those are bills, not subscriptions. They asked you not to drag them in. Counting any of them inflates the number and breaks the instruction. That's a real miss, not a nitpick.
+
+12 of 15
+
+"[Calculation] One-time stuff stays out"
+One-time stuff stays out. Home Depot, REI, Costco, Red Rocks, the movie tickets. Not recurring.
+
+13 of 15
+
+"[Calculation] Every gym call needs an actual answer, keep or kill, with a reason"
+Every gym call needs an actual answer, keep or kill, with a reason. They said don't hand me a maybe. So no "it depends" on OTF, Anytime, or Planet.
+
+14 of 15
+
+"[Constraint] No app, no spreadsheet, no advisor"
+No app, no spreadsheet, no advisor.
+
+15 of 15
+
+"[Calculation] 1 number, the annual version, and a list of what you cut and what..."
+1 number, the annual version, and a list of what you cut and what you kept and why. Across both cards. Skip the 3-totals-and-a-lecture thing, they said they didn't want it. Dollars as $0.00.
+
+Failure justifications
+3 frontier models received this prompt. Below are the per-model justifications for why each response passed or failed the rubric.
+
+
+"Model 1 · Fail — correctly eliminated the duplicate Netflix charge of $22.99, which showed up on"
+The model correctly eliminated the duplicate Netflix charge of $22.99, which showed up on both cards, but did not eliminate the duplicate OrangeTheory charges of $159. This resulted in an incorrect final monthly total of $463.95 instead of the correct $304.95. The model correctly identified other gym memberships, Anytime Fitness and Planet Fitness, which were billed in March, but did not appear in the statements in April. It correctly reasoned that the duplicates should be eliminated and recognized that the user had likely already canceled the duplicate memberships, but did not recognize that OrangeTheory should have been treated the same way due to the duplicate monthly charges on the 2 user cards.
+
+"Model 2 · Fail — arrived at an incorrect total of $463.95 because it incorrectly assumed that"
+Response 2 arrived at an incorrect total of $463.95 because it incorrectly assumed that 2 OrangeTheory memberships were appropriate for 2 people. While it is true that OrangeTheory does not offer group or family memberships, the prompt clearly stated that all duplicate memberships should be eliminated. The model applied that constraint to the Netflix membership and recognized that Planet Fitness and Anytime Fitness should be eliminated as well, but failed to apply that reasoning to the OrangeTheory memberships. The model states, "OrangeTheory is the big 1: I'm calling it not redundant," then keeps both because 2 people at the same studio is "more plausibly 2 separate memberships." It's not; the charge is identical on both cards, both months, making those charges duplicates that should have been addressed.
+
+"Model 3 · Fail — correctly identified that Orangetheory was redundant and eliminated it"
+Response 3 correctly identified that Orangetheory was redundant and eliminated it. However, its math was incorrect. The final monthly total stated was $394.95, but the total in the table is $328.95, an error of $66. And the "as-charged" number it starts from, $597.93, isn't the correct total; April's total is $486.94, and March's is $558.94.
+
+The response also incorrectly states that the charges for Anytime Fitness and Planet Fitness are on "both cards, both months." Both appear on the March Venture card, but neither appears on the April Venture card. The response also treated the 2 memberships differently, eliminating the Anytime Fitness membership and keeping both Planet Fitness charges.
+
+Rubric
+30 items total.
+
+
+"Critical findings
+2 items"
++60 to +100
++95The response states the projected next-month subscription total as $304.95 (within +/- $1). This is the 1 headline number the consumer explicitly asked for and the entire task hinges on landing it.
+
++75The response cancels exactly one of the 2 Orangetheory $159.00 charges and keeps 1. Orangetheory is the largest duplicate in the file and the single most decisive call; this is the headline finding the failing models miss.
+
+"Important findings
+13 items"
++25 to +55
++55The response identifies Orangetheory as a true duplicate because the identical $159.00 charge hits both the Chase Sapphire and the Capital 1 Venture in both March and April. The evidence-based justification for the headline call is what separates a correct answer from a lucky guess.
+
++45The response cancels exactly one of the 2 Netflix $22.99 charges and keeps 1. Netflix is the second confirmed duplicate appearing on both cards in both months.
+
++40The response states the duplicate-driven monthly waste as $181.99 (within +/- $1). This equals the Netflix $22.99 plus the Orangetheory $159.00 and is the gap between as-charged and the cleaned-up baseline.
+
++40The response treats Orangetheory as a more certain duplicate than Anytime Fitness and Planet Fitness because Orangetheory double-bills in both months while the other 2 double-bill only in March. The relative-confidence ranking across the gyms is the central analytical judgment and getting it backwards yields the wrong total.
+
++35The response applies the same keep-or-cancel disposition to Anytime Fitness and Planet Fitness rather than classifying 1 as a duplicate and the other as legitimate. The 2 gyms show an identical March-only double-charge pattern and must be classified consistently.
+
++35The response reconciles charges across both the Chase Sapphire and the Capital 1 Venture statements rather than analyzing a single card. The duplicates are invisible from any 1 statement so cross-referencing both cards is required to reach the answer.
+
++30The response excludes Verizon phone, Progressive insurance, Comcast internet, Xcel, and water charges from the subscription total. The consumer explicitly instructed not to count phone, car insurance, internet, or utilities as subscriptions.
+
++30The response gives a definitive keep-or-cancel call for Orangetheory, Anytime Fitness, and Planet Fitness with no hedging such as "it depends" or "maybe". The consumer explicitly demanded a committed decision on each charge rather than a maybe.
+
++30The response excludes one-time purchases such as Home Depot, REI, Costco, Red Rocks, and movie tickets from the recurring total. The consumer explicitly instructed not to treat one-time retail or event purchases as recurring.
+
++25The response flags the Anytime Fitness and Planet Fitness double-charges as a March-only pattern likely reflecting timing or an already-cancelled item, and suggests confirming on the May statement. This nuanced read prevents miscategorizing the 2 gyms as standing duplicates.
+
++25The response lists each cancelled subscription with the reason it was cancelled. The consumer explicitly asked for the exact charges killed and the reasoning for each.
+
++25The response lists each kept subscription with the reason it was kept. The consumer explicitly asked for the kept charges and why as the mirror of the cancelled list.
+
++25The response presents 1 committed monthly figure rather than offering 2 or more alternative totals to choose between. The consumer explicitly rejected "3 different totals and a lecture" and asked for 1 number.
+
+"Minor findings
+7 items"
++5 to +20
++20The response keeps Amazon Prime at the $14.99 monthly rate. Prime is billed monthly on the card at $14.99 and belongs in the total at its actual rate.
+
++20The response keeps HBO Max at $15.99 as a single-card subscription and does not flag it as a duplicate. HBO Max appears on only 1 card and is correctly kept rather than treated as doubled.
+
++15The response identifies the 3 remaining gym memberships after cleanup as one Orangetheory, 1 Anytime Fitness, and 1 Planet Fitness. Naming the 3 remaining gyms makes the 2-people-3-gyms picture concrete.
+
++15The response states the post-deduplication monthly gym spend as $231.00 (within +/- $1). Calling out the remaining gym total surfaces the dominant remaining category of spend.
+
++15The response states the projected annual subscription total as $3,659.40 (within +/- $5). The annual version of the headline number is an explicit deliverable.
+
++10The response states the as-charged monthly subscription baseline as $486.94 (April) or $558.94 (March). Showing the as-charged baseline anchors the deduplication math against a real month.
+
++5Dollar amounts are formatted with a leading dollar sign and 2 decimals such as $304.95. The expected formatting standard is dollars as $0.00.
+
+"Deal-breaker negatives · 8 items"
+-70The response recommends consulting or contacting a financial advisor. The consumer explicitly forbade advisor recommendations for a subscriptions question.
+
+-65The response keeps both Orangetheory $159.00 charges or characterizes them as 2 separate legitimate memberships. This is the central failure mode; keeping the $159 duplicate leaves the single biggest leak uncut and overstates the total by $159.
+
+-60The response recommends adopting a budgeting app or maintaining a spreadsheet. The consumer explicitly ruled out a budgeting app and a spreadsheet because they never stick with them.
+
+-45The response states the final monthly subscription total as $463.95. This is the known wrong total produced by keeping the Orangetheory duplicate, the most common failure path.
+
+-40The response counts any of Verizon, Progressive, Comcast, Xcel, or water inside the subscription total. Folding bills into the subscription number is both a category error and a direct violation of the consumer's exclusion instruction.
+
+-30The response treats Anytime Fitness and Planet Fitness as standing duplicates billed on both cards in both months, or claims they appear on the April Venture statement. Both gyms hit the Venture in March only so asserting an April Venture charge is a fabrication of data not in the file.
+
+-25The response restates Amazon Prime as $139 per year instead of $14.99 per month. Prime is billed monthly at $14.99 on the card so substituting the annual price misrepresents the actual recurring charge.
+
+-25The response states an as-charged baseline that matches no real month, such as $597.93. An as-charged figure that reconciles to neither March nor April signals a fabricated or miscomputed baseline.

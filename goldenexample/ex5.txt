@@ -1,0 +1,103 @@
+Persona
+Single mother in Phoenix, 45, two teenagers, homeowner. Works a day-job at a tax and advisory firm and runs her own side bookkeeping practice.
+
+Prompt
+I'm Diana, 45, a single mom in Phoenix with two teenagers. I work at Trevisan Tax & Advisory during the day, and I also run Mireles Bookkeeping on the side, so my personal and business money gets kinda hard to follow. I keep moving $1,500 from my Wells Fargo business checking into my BoA personal checking, but I still feel like my cash flow is tighter than it should be.
+
+ 
+
+Can you look through my March and April BoA personal checking, my BoA credit card, Chase Ink business card, Wells Fargo business checking, paystub, and tax files and tell me what my real monthly recurring cash-flow baseline is? Please split it into these sections: Personal Cash Flow, Business Cash Flow, Subscriptions and Recurring Bills, Possible Duplicate Charges, and What I Should Change.
+
+ 
+
+I want the actual dollar amounts for my paycheck income, owner draw, mortgage, student loan, card autopays, business card spending, and recurring subscriptions. Also pls separate personal household charges from bookkeeping-business charges, because I don't want to cut something I actually need for clients. If the same bill-looking charge shows up in more than one account, flag it for review, but don't count it as savings unless the files clearly prove it is the same bill being paid twice. Don't tell me to hire an advisor or buy a budgeting app. I just want a clean cash-flow view and a realistic cleanup plan using the accounts I already have.
+
+Failure justifications
+3 frontier models received this prompt. Below are the per-model justifications for why each response passed or failed the rubric.
+
+"Model 1 · Fail — failed because it flags the right repeated charges but then treats them"
+FAIL Response 1 failed because it flags the right repeated charges but then treats them too much like confirmed savings. For example, Cox $89.99 is a strong duplicate-looking charge because it appears on the same date and same amount in BoA checking and the BoA card, but other items like Bench.co, QuickBooks, Zoom, and State Farm are only repeated or suspicious because they show up across accounts on different dates or may cover different services. The response says fixing these charges could "instantly free up ~$589.98 per month," which goes beyond what the files prove and violates the prompt's instruction not to count repeated charges as savings unless they are clearly the same bill being paid twice. It also does not clearly calculate the real April household shortfall after comparing $5,481.10 of personal inflow with $6,361.84 of April household spending incurred.
+
+"Model 2 · N/A"
+N/A
+
+"Model 3 · Fail — is far too incomplete for the requested prompt"
+FAIL Response 3 is far too incomplete for the requested prompt. The prompt asked for five sections, actual dollar amounts for personal cash flow, business cash flow, subscriptions, duplicate charges, and changes, but Response 3 only gives a short summary and does not provide the requested full breakdown. It misses key values like Diana's $3,981.10 monthly W-2 take-home pay, the $1,500 owner draw, the $5,481.10 personal inflow, the April household shortfall, and the Wells Fargo business checking totals. Even though it correctly flags Bench, QuickBooks, and Zoom as review items, it leaves out most of the required calculations and deliverable structure.
+
+Rubric
+32 items total.
+
+
+"Critical findings
+7 items"
++60 to +100
++100Response states total monthly personal checking inflows of $5,481.10. This is the cash-flow baseline figure that all spending comparisons are measured against, and it is identical in March and April.
+
++100Response states April household spending incurred of $6,361.84. This spending-incurred construction (excluding the autopay, including new card purchases) is the only basis that makes the shortfall figure correct.
+
++100Response states a real April household shortfall of $880.74. This is the headline answer to why cash flow feels tight and drives the entire cleanup plan.
+
++75Response notes the $6,000.00 in 2025 estimated tax payments from the 1040-ES summary, equivalent to roughly $500.00 per month that business income must reserve for taxes. Self-employment taxes are a real recurring obligation on the business income, so the true baseline must reserve for them rather than treating all business cash as spendable.
+
++70Response treats all flagged repeated charges as items to verify rather than confirmed duplicates, and does not state a guaranteed monthly savings amount from them. The prompt explicitly instructs that repeated charges be flagged for review and not counted as savings unless the files prove the same bill was paid twice, which differing dates do not.
+
++65Response identifies the $1,500.00 owner draw as an internal transfer from Wells Fargo business checking into BoA personal checking, present in both March and April. The draw funds the household from the business, and classifying it as an internal transfer rather than outside income is the structural insight the analysis depends on.
+
++60Response separates bookkeeping-business charges from personal household charges throughout the analysis, including noting personal-type charges on the Chase Ink card such as AMC Theatres ($45.80) and Fry's Food Stores ($87.20). The prompt explicitly requires this separation so the user does not cut something needed for clients, and the personal charges sitting on the business card are the concrete test of whether the separation was actually performed.
+
+"Important findings
+9 items"
++25 to +55
++30Response presents each card's autopay (payment of prior balance) separately from that card's current-month purchases rather than summing them as spending. The autopays already flow out of the checking accounts, so treating autopay and purchases as two spending lines double-counts roughly $1,845 on the personal side and $2,890 on the business side in April.
+
++30Response flags Cox ($89.99) and State Farm ($185.00) as charges appearing in both BoA checking and the BoA credit card in April, requiring review. These are the personal-side repeated charges; Cox appears at the same amount on the same date (04/07) across both accounts, making it the strongest duplicate candidate.
+
++30Response flags Bench.co ($249.00), QuickBooks ($50.00), and Zoom ($15.99) as charges appearing in both Wells Fargo business checking and the Chase Ink card in April, requiring review. These are the business-side repeated charges, each billed twice in the same month across two payment methods.
+
++25Response states monthly W-2 take-home pay of $3,981.10. The prompt explicitly asks for the paycheck income amount; the per-check net pay of $1,990.55 from the two paystubs is the building block and the monthly figure anchors the personal cash-flow baseline.
+
++25Response states April BoA credit card purchases of $3,031.08. New card purchases are the real April consumption and must be reported separately from the autopay that pays off the prior balance.
+
++25Response states April personal recurring or bill-like BoA card charges totaling $575.36. The subscriptions section requires the aggregate of recurring card charges, which spans entertainment subscriptions plus the bill-like Allstate ($165.00) and Southwest Gas ($47.42) charges.
+
++25Response states April Chase Ink Business card purchases of $2,439.89. The prompt explicitly asks for business card spending.
+
++25Response identifies Intuit ProConnect ($495.00), Bench.co ($249.00), QuickBooks ($50.00), DocuSign ($40.00), LinkedIn Premium ($39.99), Zoom ($15.99), and Google Workspace ($14.40) as business subscriptions on the Chase Ink card. These seven charges compose the $904.38 software subtotal and must be kept distinct from personal entertainment subscriptions so client-critical tools are not cut.
+
++25Response provides a cleanup plan with concrete actions grounded in the findings, such as consolidating each duplicate-flagged bill to a single payment method, aligning the BoA autopay with actual monthly card spending, or verifying whether the State Farm and Allstate policies cover different assets. The prompt asks for a realistic cleanup plan using existing accounts, so the final section must contain specific actionable steps tied to the documents rather than generic advice.
+
+"Minor findings
+13 items"
++5 to +20
++20Response states the March BoA credit card autopay as $1,450.00. The prompt explicitly requests card autopay amounts and the March figure comes from the March checking statement.
+
++20Response states the April BoA credit card autopay as $1,845.50. The prompt explicitly requests card autopay amounts and the April figure appears in both the checking statement and the card statement.
+
++20Response identifies Netflix ($22.99), Spotify Family ($19.99), Hulu + Disney+ ($19.99), Amazon Prime ($14.99), and Apple.com/Bill ($9.99) as personal entertainment subscriptions on the BoA card. These five entertainment subscriptions are the discretionary recurring charges the user asked to see itemized.
+
++20Response states April Wells Fargo business checking deposits of $4,375.00. Client revenue into the business account shows whether the business can sustain the owner draw.
+
++20Response states April Wells Fargo business checking withdrawals of $4,795.73. Business withdrawals exceeded deposits in April, which is the business-side cash-flow pressure the user needs to see.
+
++20Response states April Chase Ink software and subscription charges of $904.38. Isolating the business software subtotal supports the personal-versus-business separation the prompt requires.
+
++15Response states the Rocket Mortgage payment as $1,485.00 per month. The prompt explicitly asks for the mortgage dollar amount.
+
++15Response states the Nelnet student loan payment as $285.00 per month. The prompt explicitly asks for the student loan dollar amount.
+
++15Response states the APS electric bill as $195.00 per month from BoA checking. APS is one of the fixed household bills that forms the recurring personal baseline.
+
++15Response states the Verizon bill as $185.00 per month from BoA checking. Verizon is one of the fixed household bills that forms the recurring personal baseline.
+
++15Response states the State Farm payment as $185.00 per month from BoA checking. State Farm is a fixed household bill and one of the two charges that also appears on the BoA card, feeding the duplicate analysis.
+
++15Response states the Cox Communications bill as $89.99 per month from BoA checking. Cox is a fixed household bill and one of the two charges that also appears on the BoA card, feeding the duplicate analysis.
+
++15Response is organized under the five requested sections: Personal Cash Flow, Business Cash Flow, Subscriptions and Recurring Bills, Possible Duplicate Charges, and What I Should Change. The prompt locks the five named output sections as the deliverable structure.
+
+"Deal-breaker negatives · 3 items"
+-80Response presents Bench.co, QuickBooks, Zoom, State Farm, or Cox repeated charges as guaranteed or confirmed savings rather than items requiring review. The repeated charges appear on different dates or may reflect separate services, so counting them as savings violates the prompt's explicit standard of proof and fabricates a dollar figure.
+
+-75Response recommends hiring an advisor, financial planner, or professional. The prompt explicitly forbids telling the user to hire an advisor.
+
+-75Response recommends purchasing or downloading a budgeting app or paid software tool. The prompt explicitly forbids telling the user to buy a budgeting app.

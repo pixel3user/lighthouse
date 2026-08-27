@@ -1,0 +1,79 @@
+Persona
+Retired couple in Tampa, both 71, married filing jointly. Two adult kids out of the house. Florida residents.
+
+Prompt
+Robert and I have been retired down here in Tampa for a while now and feel pretty settled. The thing on my mind lately is the grandkids, Alex and Maya. We put $250 a month into each of their 529s right now and I know we can do more but I don't want to just guess. I want to know exactly what we can increase those contributions to each month based on what's actually coming in and going out, and I want to see the math, not just a ballpark. The only thing I'd ask is don't tell us to pull more from the IRAs than we already are. Robert takes his distribution and I take mine and that's what we work with. Whatever we can do for the kids has to come out of what's already landing in the checking account. While you're looking through everything, Robert got a Medicare premium notice a few months back that seemed really high and I mentioned it to my daughter and she said it seemed off too but we can't figure out why. I don't need a whole explanation of Medicare, I just want to know if we're paying what we should be paying or if something is wrong. Please don't send us to a financial advisor, we've handled our own money our whole lives.
+
+Critical elements
+The 10–15 most critical elements the response must get right.
+
+An exploration...
+
+1 of 11
+
+"[Calculation] Total net monthly income landing in the Wells Fargo checking account is $13,564.80: Robert's..."
+Total net monthly income landing in the Wells Fargo checking account is $13,564.80: Robert's SS net of Medicare is $2,656.80, Diane's is $1,856.80, Robert's IRA distribution net of withholding is $4,875, Diane's is $2,775 and Diane's Ford pension is $1,400, identical across all 4 months. No additional IRA money is used since the prompt rules that out.
+
+2 of 11
+
+"[Flag] Average monthly withdrawals from the Wells Fargo checking account are $6,879.98: January was $6,603.41,..."
+Average monthly withdrawals from the Wells Fargo checking account are $6,879.98: January was $6,603.41, February $6,485.08, March $7,136.78, and April $7,294.65. These withdrawals already include the current $500 per month in 529 contributions and the Capital 1 autopay, so no double counting is appropriate.
+
+3 of 11
+
+"[Calculation] The monthly surplus available for increased 529 contribution is $6,684.82, confirmed by the checking..."
+The monthly surplus available for increased 529 contribution is $6,684.82, confirmed by the checking account growing from $18,200 in January to $44,939.28 at the end of April, a total increase of $26,739.28 over 4 months:  This is the gross surplus before reserving for the 2025 tax underpayment. A model that excludes the current $500 in 529 contributions from outflows and adds it back will overstate the available surplus.
+
+4 of 11
+
+"[Calculation] The 2025 federal tax return shows $10, 150.80 owed at filing against a total..."
+The 2025 federal tax return shows $10, 150.80 owed at filing against a total liability of $20,350.80 with only $10,200 withheld: This creates a monthly reserve need of $845.90 that a complete answer must account for before recommending how much more to direct toward the 529s. A model that ignores this overstates the available surplus by $845.90 per month.
+
+5 of 11
+
+"[Calculation] After reserving for the tax shortfall the true available monthly surplus for additional 529..."
+After reserving for the tax shortfall the true available monthly surplus for additional 529 contributions is $6,338.92, or $3,169.46 per grandchild per month: This is the max recommendation based on current cash flow without touching the IRAs. Recommendations above this number are not supported by the data given.
+
+
+6 of 11
+
+"[Calculation] The 2026 annual gift tax exclusion is $19,000 per person per recipient, meaning Robert..."
+The 2026 annual gift tax exclusion is $19,000 per person per recipient, meaning Robert and Diane together can give up to $38,000 per grandchild per year without any gift tax filing required: Current contributions of $3,000 per grandchild per year are far under this limit. The monthly ceiling that stays under the combined exclusion is $3,166.67 per grandchild. Any recommendation above $3,166.67 per child per month exceeds $38,000 annually and triggers a gift tax return requirement.
+
+7 of 11
+
+"[Headline] The headline finding is that Robert is paying $171.10 per month in IRMAA surcharges..."
+The headline finding is that Robert is paying $171.10 per month in IRMAA surcharges on his Medicare premium despite the couple's 2025 AGI of $171,840 being $40,160 below the $212k MFJ first bracket threshold: Robert's IRMAA is based on 2024 income via the 2 year lookback rule, so 2024 income is the key unknown. If 2024 income was also under $212k the surcharge is wrong and can be challenged.
+
+8 of 11
+
+"[Calculation] Diane is also paying the same IRMAA surcharge, confirmed by the SSA-1099 showing $4,118.40..."
+Diane is also paying the same IRMAA surcharge, confirmed by the SSA-1099 showing $4,118.40 in annual Medicare deductions against a standard Part B premium of $185 per month totaling $2,220 annually: The difference of $1,898.40 per year confirms Diane's IRMAA surcharge of $158.20 per month, identical to Robert's. This is further confirmed by her Social Security gross of $2,200 per month minus her net deposit of $1,856.80 equaling exactly $343.20 withheld per month. Total household IRMAA is $3,951.60 per year.
+
+9 of 11
+
+"[Flag] Robert is not subject to Required Minimum Distributions yet because at age 71 he..."
+Robert is not subject to Required Minimum Distributions yet because at age 71 he is below the SECURE 2.0 RMD starting age of 73: His current distributions of $65,004 per year are voluntary. His estimated RMD at age 73 based on the current IRA balance of $1,605,248.42 and the IRS Uniform Lifetime Table factor of 26.5 is approximately $60,575.41, meaning his current voluntary distributions already exceed his future required amount.
+
+10 of 11
+
+"[Calculation] The checking account balance growth of $6,684.82 per month is entirely from cash, not..."
+The checking account balance growth of $6,684.82 per month is entirely from cash, not investment returns, since the checking account earns only $1.20 per month in interest: This confirms the surplus is real and recurring, not a 1 time event and that the couple is over withdrawing from their IRAs relative to their spending needs.
+
+11 of 11
+
+"[Flag] T mobile at $65/month, Frontier Communications at $75/month, and AAA at $24/month each appear..."
+T mobile at $65/month, Frontier Communications at $75/month, and AAA at $24/month each appear in both the Wells Fargo checking statements and the Capital 1 card every month: These 3 charges total $164/month and $1,968/year in potential duplicate payments that a complete answer should flag.
+
+Failure justifications
+3 frontier models received this prompt. Below are the per-model justifications for why each response passed or failed the rubric.
+
+
+"Model 1 · Fail — recommends increasing each grandkid's 529 to $3,592.41 per month, which is $43,108.92"
+FAIL Response 1 recommends increasing each grandkid's 529 to $3,592.41 per month, which is $43,108.92 per kids per year. The 2026 combined annual gift tax exclusion for Robert and Diane together is $38,000 per grandkid. Response 1's recommendation goes over that limit by $5,108.92 per grandkid per year which would mean filing a gift tax return, directly contradicting the prompt's request to avoid creating a tax mess. Response 1 also completely dismisses the Medicare question, starting "you are paying the correct amount and nothing is wrong" without checking whether the IRMAA is justified by their income. Their 2025 AGI of $171,840 is $40,160 under the $212k MFJ IRMAA threshold, and the surcharge amounts on the notice don't match standard tiers for 2026, making this a big factual error that leaves the couple paying $3,951.60 in annual surcharges they might not owe.
+
+"Model 2 · Fail — correctly reserved $845.90 per month for the tax shortfall and landed on"
+FAIL Response 2 correctly reserved $845.90 per month for the tax shortfall and landed on $3,169.46 per child per month, which is $38,033.52 per grandkid per year. This exceeds the $38k combined annual gift tax exclusion by $33.52 per grandkid per year and makes them have to file a gift tax form that wasn't flagged. Response 2 also correctly identified Robert's IRMAA but only said Diane "appears" to be paying the same surcharge based on her deposit, when the SSA-1099 shows $4,118.40 in annual Medicare deductions for Diane confirming her surcharge of $158.20 per month to the dollar. A response that hedges on a finding that is in the documents is giving the user less than what the data shows.
+
+"Model 3 · N/A"
+N/A

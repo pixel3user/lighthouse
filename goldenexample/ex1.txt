@@ -1,0 +1,194 @@
+Persona
+Brand designer in Atlanta, 34, single, no dependents, renter. Works for himself on retainer with a small number of clients.
+
+Prompt
+I'm a freelance brand designer here in Atlanta, all 1099, and I do my own taxes. I just finished my 2025 return and now I'm trying to get ahead on 2026 so I'm not scrambling next April. My income is running basically identical to last year (Vexrome ACHs me 4,500 a month, Karrick about 3,417), so I'm comfortable projecting 95,000 in gross receipts again. Can you build me a clean projected 2026 Schedule C and tell me my projected net profit, then carry it through to what my 2026 federal tax and quarterly estimates should actually be? For the variable business spend, please use my Chase Ink card: take the March and April 2026 statements, total the purchases by category (ignore the autopay/payment lines, those aren't expenses), map each category to the right Schedule C line, and annualize by multiplying the two-month total by 6. My fixed business costs aren't on that card, so use these annual figures: advertising 1,850, car 980, commissions 1,200, legal/professional 1,450, business rent 5,100, taxes and licenses 485, utilities 720. For client and business meals, I've spent about 1,720 over February through April so annualize that to the full year. I also max my SEP every year and I'm putting in 1,200 a month for 2026, so confirm that's fine. Use the 2025 brackets and standard deduction for the projection since 2026 tables aren't out yet. Please don't tell me to hire a CPA and keep this federal only, I handle Georgia myself.
+
+
+Critical elements
+The 10–15 most critical elements the response must get right.
+
+1. "[Headline] The projection must include the QBI (Section 199A) deduction of $5,651.77, producing total federal..."
+HEADLINE: The projection must include the QBI (Section 199A) deduction of $5,651.77, producing total federal tax of $10,695.50 and quarterly estimates of $2,673.88. QBI is the lesser of 20% x $43,258.84 ($8,651.77) and the binding 20%-of-taxable-income limit (20% x $28,258.83 = $5,651.77). Omitting it - even to "mirror" the 2025 return, which erroneously left it off - overstates the tax to $11,373.71 and the quarterly to about $2,843, which is the central failure.
+
+2. "[Calculation] Correct taxable income = $22,607.06, after subtracting the $5,651.77 QBI deduction from the $28,258.83..."
+Correct taxable income = $22,607.06, after subtracting the $5,651.77 QBI deduction from the $28,258.83 taxable income before QBI. A response that stops at $28,258.83 and taxes that amount has omitted a deduction the taxpayer is legally entitled to (graphic design is not an SSTB and income is far below any threshold).
+
+3. "[Calculation] Correct federal income tax = $2,474.35 (2025 single brackets on $22,607.06), not $3,152.56, which..."
+Correct federal income tax = $2,474.35 (2025 single brackets on $22,607.06), not $3,152.56, which results from taxing the pre-QBI figure.
+
+4. "[Calculation] Projected 2026 net profit = $58,184.12 - gross receipts $95,000 minus total expenses $36,815.88"
+Projected 2026 net profit = $58,184.12 - gross receipts $95,000 minus total expenses $36,815.88. Every downstream figure depends on this.
+
+5. "[Flag] SEP over-contribution flag (secondary finding): $1,200/mo = $14,400 exceeds the deductible maximum of $10,814.71..."
+SEP over-contribution flag (secondary finding): $1,200/mo = $14,400 exceeds the deductible maximum of $10,814.71 (20% x [$58,184.12 - $4,110.57]) by $3,585.29; the projection must cap the deductible SEP at $10,814.71 and warn of the 6% excise tax. Using the full $14,400 as a deduction is a cascade error.
+
+6. "[Calculation] Chase Ink Mar+Apr purchases by category, annualized x6, total $21,590.88: Travel $562.77 + Lodging..."
+Chase Ink Mar+Apr purchases by category, annualized x6, total $21,590.88: Travel $562.77 + Lodging $1,346.38 = Line 24a Travel $11,454.90; Office Supplies $5,014.50; Shipping $2,902.20; Software $2,219.28. The 2 AUTOPAY lines ($2,982.92 and $2,203.65) are payments, not expenses, and must be excluded.
+
+7. "[Calculation] Lodging maps to Line 24a Travel, not a separate line"
+Lodging maps to Line 24a Travel, not a separate line. Schedule C has no lodging line; the Marriott charges fold into Travel. Treating lodging as personal or dropping it inflates net profit.
+
+8. "[Calculation] Meals deduction = $3,440.00"
+Meals deduction = $3,440.00. The $1,720 over February-April is 3 months, so it annualizes to $6,880 (x4), then the 50% business-meals limit gives $3,440. Halving without annualizing ($860) or annualizing without halving ($6,880) is wrong.
+
+9. "[Calculation] Fixed off-card expenses = $11,785.00 (advertising $1,850 + car $980 + commissions $1,200 +..."
+Fixed off-card expenses = $11,785.00 (advertising $1,850 + car $980 + commissions $1,200 + legal/professional $1,450 + rent $5,100 + taxes/licenses $485 + utilities $720). Total expenses therefore = $36,815.88.
+
+10. "[Calculation] Self-employment tax = $8,221.15 ($58,184.12 x 0.9235 x 15.3%), with the deductible half =..."
+Self-employment tax = $8,221.15 ($58,184.12 x 0.9235 x 15.3%), with the deductible half = $4,110.57. SE tax is computed on net profit and is not reduced by the SEP or QBI; it is $8,221.15 in every correct version.
+
+11. "[Calculation] AGI = $43,258.83 (net profit $58,184.12 minus half SE tax $4,110.57 minus the capped..."
+AGI = $43,258.83 (net profit $58,184.12 minus half SE tax $4,110.57 minus the capped SEP deduction $10,814.71, not the full $14,400). Standard deduction $15,000 (2025 single, as instructed), giving taxable income before QBI of $28,258.83.
+
+12. "[Calculation] Total projected 2026 federal tax = $10,695.50 ($2,474.35 income tax + $8,221.15 SE tax)"
+Total projected 2026 federal tax = $10,695.50 ($2,474.35 income tax + $8,221.15 SE tax). A total tax of $11,373.71/$11,373.72 indicates the QBI deduction was omitted.
+
+13. "[Calculation] Quarterly estimate = $2,673.88 ($10,695.50 / 4), down from his current $4,700/quarter pace ($18,800/yr)..."
+Quarterly estimate = $2,673.88 ($10,695.50 / 4), down from his current $4,700/quarter pace ($18,800/yr) - he is overpaying by roughly $8,100/yr.
+
+14. "[Constraint] Constraints honored: no CPA or financial-advisor recommendation, federal only (no Georgia), no specific security..."
+Constraints honored: no CPA or financial-advisor recommendation, federal only (no Georgia), no specific security buy/sell, no app suggestion.
+
+15. "[Constraint] Deliverable shape: a projected Schedule C by line, the net profit, the SE ->..."
+Deliverable shape: a projected Schedule C by line, the net profit, the SE -> AGI -> QBI -> taxable-income -> tax chain, total tax, and the quarterly figure, all dollars to the cent.
+
+
+Failure justifications
+3 frontier models received this prompt. Below are the per-model justifications for why each response passed or failed the rubric.
+
+"Model 1 · N/A"
+N/A - Response 1 is the 1 model that did not fail. It correctly included the QBI deduction of $5,651.77 (the lesser of 20% of QBI and the binding 20%-of-taxable-income limit), arriving at the correct taxable income of $22,607.06, total federal tax of $10,695.50, and quarterly estimate of $2,673.88. It also correctly flagged the SEP over-contribution (capping the deductible amount at $10,814.71 and noting the $14,400 plan overshoots by $3,585.29) and excluded the autopay lines, mapped lodging to Line 24a Travel, and applied the 50% meals limit. This is the passing response.
+
+"Model 2 · Fail — fails on the headline of the entire deliverable"
+Response 2 fails on the headline of the entire deliverable. It omitted the QBI (Section 199A) deduction the taxpayer is entitled to, reporting a total 2026 federal tax of $11,373.71 and quarterly estimates of $2,845 - both wrong. The correct figures are $10,695.50 total tax and $2,673.88 per quarter, because as a non-SSTB sole proprietor (graphic design, code 541430) with income far below the threshold, he qualifies for the full $5,651.77 QBI deduction (the binding 20%-of-taxable-income limit). This was not an oversight the model missed: it explicitly wrote "Your 2025 return PDF did not include QBI, so I left it out of the main estimate to mirror that filing approach," even noting in an aside that claiming QBI "would drop to about $10,695.50, or about $2,674 per quarter." That rationale is wrong - the prompt asked what the 2026 tax "should actually be," the 2025 omission was itself an error, and a forward projection must claim a deduction the taxpayer is entitled to rather than perpetuate a prior mistake. The cascade is concrete: it taxed the full pre-QBI $28,258.83, producing regular income tax of $3,152.56 instead of the correct $2,474.35 on $22,607.06, overstating his liability by $678.21 and inflating each quarterly payment by roughly $171 - the precise numbers the user asked it to get right. (It did correctly flag the SEP over-contribution and net profit of $58,184.12, but failed the highest-weight items: the QBI deduction, the correct taxable income, the correct total tax, and the correct quarterly estimate.)
+
+"Model 3 · Fail — fails on the central deliverable by omitting the QBI (Section 199A) deduction"
+Response 3 fails on the central deliverable by omitting the QBI (Section 199A) deduction entirely - and unlike Response 2, it never acknowledges it at all. Its tax calculation runs straight from "Taxable income: $28,258.83" to "Income tax: $3,152.56" with no QBI line anywhere in the response, so it never claims the $5,651.77 deduction the taxpayer is entitled to (non-SSTB graphic design, code 541430, income far below the threshold, so the full 20%-of-taxable-income limit applies). This produces a total 2026 federal tax of $11,373.72 and a quarterly estimate of $2,843.43, both wrong; the correct figures are $10,695.50 and $2,673.88, built on the correct post-QBI taxable income of $22,607.06 and income tax of $2,474.35. Because the prompt asked what his 2026 tax "should actually be," a correct projection must claim a deduction he is legally entitled to rather than silently drop it - omitting it overstates his liability by $678.22 and inflates every quarterly payment by roughly $170. The error even propagates into its safe-harbor sidebar, where it computes "90% of this projection ($11,373.72) is ~$10,236" off the wrong total tax, so that figure is wrong too (90% of the correct $10,695.50 is $9,625.95). It did correctly identify net profit of $58,184.12 and flag the SEP over-contribution, but it failed the highest-weight items: the QBI deduction, the correct taxable income, the correct total tax, and the correct quarterly estimate.
+
+
+
+Golden trajectory
+The step-by-step path from prompt to verified answer.
+
+1
+"Open marcus_halloran__chase_ink__202603 (March CSV) and marcus_halloran__chase_ink__202604 (April CSV)"
+Exclude the AUTOPAY/payment rows (-$2,982.92 and -$2,203.65), then total the purchase rows by the Category column. Mar+Apr combined: Travel $562.77, Lodging $1,346.38, Office Supplies $835.75, Shipping $483.70, Software $369.88.
+
+2
+"Annualize each category by multiplying the 2-month total by 6: Travel $3,376.62 + Lodging $8,078.28 = Line 24a..."
+Total annualized card spend = $21,590.88.
+
+3
+"Take the fixed business costs stated in the prompt and sum them: advertising $1,850 + car $980 +..."
+4
+"Compute the meals deduction: the prompt gives $1,720 spent over February-April (3 months), so annualize by x4 =..."
+5
+"Total expenses = $21,590.88 (Step 2) + $11,785.00 (Step 3) + $3,440.00 (Step 4) = $36,815.88"
+6
+"Projected net profit = gross receipts $95,000.00 (stated; confirmed by the 2 1099-NECs, Karrick $41,000 + Vexrome $54,000,..."
+7
+"Compute self-employment tax: $58,184.12 x 0.9235 = $53,733.03 net SE earnings; x 15.3% = $8,221.15 SE tax"
+The deductible half = $4,110.57.
+
+8
+"Check the SEP-IRA contribution against the cap"
+Open marcus_halloran__vanguard_sep_ira__2026Q1 to confirm the $1,200/month pace ($14,400/year). The deductible SEP maximum = 20% x (net profit $58,184.12 - half SE tax $4,110.57) = 20% x $54,073.55 = $10,814.71. The planned $14,400 exceeds this by $3,585.29 (an excess contribution, 6% excise risk), so the deductible SEP is capped at $10,814.71. FLAG this; do not "confirm it's fine."
+
+9
+"AGI = net profit $58,184.12 - half SE tax $4,110.57 - capped SEP deduction $10,814.71 = $43,258.84"
+10
+"Taxable income before QBI = AGI $43,258.84 - standard deduction $15,000.00 (2025 single, per the prompt) = $28,258.84"
+11
+"Compute the QBI (Section 199A) deduction - REQUIRED, since graphic design (code 541430, confirmed in marcus_halloran__1040_with_schedule_c__2025) is not..."
+QBI deduction = lesser of (20% x $43,258.84 = $8,651.77) and the 20%-of-taxable-income limit (20% x $28,258.84 = $5,651.77) = $5,651.77 (the limit binds). Note the 2025 return omitted this deduction in error; the 2026 projection must claim it.
+
+12
+"Final taxable income = $28,258.84 - $5,651.77 QBI = $22,607.07"
+13
+"Federal income tax on $22,607.07 (2025 single brackets) = 10% x $11,925 ($1,192.50) + 12% x ($22,607.07 -..."
+14
+"Total projected 2026 federal tax = income tax $2,474.35 + SE tax $8,221.15 = $10,695.50"
+15
+"Quarterly estimate = $10,695.50 / 4 = $2,673.88 per quarter"
+16
+"Overpayment check: open marcus_halloran__capital_one_360__202604 and find the 04/15/2026 'EFTPS IRS USATAXPYMT 1040ES' debit of $4,700"
+At $4,700/quarter he would pay $18,800 against a $10,695.50 liability, overpaying by about $8,104.50/year, so the recommendation is to cut the quarterly payment to $2,673.88.
+
+Final answer: Projected 2026 Schedule C net profit $58,184.12; total federal tax $10,695.50; quarterly estimate $2,673.88. The SEP contribution must be capped at $10,814.71 (not $14,400), and the QBI deduction of $5,651.77 must be included.
+
+
+
+Rubric
+29 items total.
+
+
+"Critical findings
+2 items"
++60 to +100
++95Response states the projected 2026 total federal tax as $10,695.50 (accept $10,545.00 to $10,845.00). The headline deliverable the user asked for; it is correct only if the QBI deduction is applied, so it is the single most important item.
+
++75Response includes a Qualified Business Income (Section 199A) deduction of $5,651.77 (accept $5,575.00 to $5,725.00). computed as the lesser of 20% of qualified business income and 20% of taxable income before the deduction. This is the discriminating finding; omitting the QBI deduction drives the wrong taxable income and federal tax estimate.
+
+
+"Important findings
+9 items"
++25 to +55
++55Response states each of the 4 2026 quarterly federal estimated payments as $2,673.88 (accept $2,623.00 to $2,723.00), i.e., the total tax divided by 4. The user explicitly asked what the quarterly estimates should be; a wrong total tax produces a wrong quarterly.
+
++45Response identifies the Qualified Business Income (Section 199A) deduction as the lesser of 20% of qualified business income and 20% of taxable income before the deduction. This confirms the response applies the correct QBI limitation, since computing QBI without the taxable limit can drive the wrong tax result.
+
++45Response states final taxable income of $22,607.07 (accept $22,500.00 to $22,710.00) after subtracting the QBI deduction. Taxing the pre-QBI figure ($28,258.83) instead is the cascade error; this checks the post-QBI taxable income.
+
++40Response states federal income tax (before self-employment tax) of $2,474.35 (accept $2,420.00 to $2,525.00) using 2025 single brackets. A response that omits QBI computes about $3,152.56 here; this item isolates that error.
+
++40Response states the projected 2026 Schedule C net profit as $58,184.12 (accept $58,134.00 to $58,234.00). Net profit is the foundation of the projection; every downstream figure depends on it.
+
++35Response identifies that the planned $1,200/month ($14,400/year) SEP contribution exceeds the deductible maximum by $3,585 (accept $3,535.00 to $3,635.00). A required secondary finding; the user asked to confirm the SEP plan and it is in fact an excess contribution by this amount.
+
++30Response computes the maximum deductible SEP contribution as $10,814.71 (accept $10,765.00 to $10,865.00), based on 20% of net profit after subtracting the 1 half of self-employment tax. The cap is the basis for the over-contribution finding and for the correct AGI.
+
++30Response states self-employment tax of $8,221.15 (accept $8,191.00 to $8,251.00). A required sub-calculation; SE tax is roughly 77% of the total liability and feeds the half-SE deduction.
+
++25Response states total projected 2026 business expenses of $36,815.88 (accept $36,765.00 to $36,865.00). Ties the annualized card spend, fixed costs, and meals together; a wrong total changes net profit.
+
+"Minor findings
+12 items"
++5 to +20
++20Response states adjusted gross income (AGI) of $43,258.83 (accept $43,180.00 to $43,335.00). AGI links net profit, the half-SE deduction, and the capped SEP; an uncapped SEP produces a wrong AGI.
+
++20Response computes the annualized Travel deduction (Schedule C Line 24a, including lodging) as $11,454.90 (accept $11,400.00 to $11,510.00). Tests that lodging is folded into Travel and the 2-month card total is annualized by 6.
+
++15Response annualizes the $1,720 3-month meals expense to $6,880.00. Tests the annualize first step; halving without annualizing would incorrectly produce $860.00.
+
++15Response applies the 50% meals limitation to compute deductible meals of $3,440.00. Tests the halve after annualizing step; annualizing without halving would incorrectly produce $6,880.00.
+
++15Response bases its business-expense totals solely on the Chase Ink purchase transactions (not the autopay/payment lines). The autopay lines are credit-card payments, not deductible expenses; basing totals on purchases only keeps the expense figures correct.
+
++15Response uses the stated fixed annual business costs totaling $11,785.00 (advertising 1,850, car 980, commissions 1,200, legal 1,450, rent 5,100, taxes and licenses 485, utilities 720). Tests correct extraction and summation of the 7 fixed figures the user provided.
+
++10Response recommends reducing the quarterly payment below the current $4,700 the user is paying. The user's underlying goal is to stop scrambling/overpaying; the correct quarterly is well below $4,700.
+
++10Response confirms gross receipts of $95,000 (Vexrome $54,000 plus Karrick $41,000). Tests extraction/reconciliation of the income figure against the 2 1099-NEC clients.
+
++10Response annualizes the March and April Chase Ink spend by multiplying the 2-month total by 6 (combined annualized $21,590.88). Tests that the prompt's stated annualization method was followed.
+
++5Response presents the projected expenses as a Schedule C broken out by individual line item. Formatting: the user asked for a clean projected Schedule C by line.
+
++5Response treats the design business as eligible for the QBI deduction (not a specified service trade/business). Graphic design is not an SSTB and income is below any threshold, so the full deduction applies; wrongly denying it is an error.
+
++5Response shows the computation chain from net profit through self-employment tax, adjusted gross income, taxable income, and total tax, with the dollar figure at each step. Formatting: the user asked to carry the Schedule C through to federal tax and quarterly estimates step by step.
+
+"Deal-breaker negatives · 6 items"
+-70Response recommends a specific security, fund, or stock to buy or sell. Regulated-advice overreach the user did not ask for and the task prohibits.
+
+-60Response recommends hiring a CPA, accountant, bookkeeper, or financial advisor. Direct violation of the user's explicit instruction not to be told to hire a CPA.
+
+-45Response deducts the full $14,400 SEP contribution in the tax calculation instead of capping the deduction at $10,814.71. A commission error that understates tax and ignores the excess-contribution problem.
+
+-40Response includes Georgia or any state income tax in the projection. Violates the explicit federal-only constraint; the user handles Georgia separately.
+
+-30Response recommends a budgeting app, expense-tracking app, or tax-preparation software. An adjacent product recommendation the persona did not request.
+
+-30Response states a dollar figure for income, an expense, or a deduction that is not one of these supported values or directly derived from them: gross receipts $95,000; the 7 fixed costs ($1,850, $980, $1,200, $1,450, $5,100, $485, $720); the $1,720 meals base (annualized to $6,880, 50% = $3,440); the $1,200/month SEP ($14,400/year, capped at $10,814.71); and the Chase Ink 2-month category totals of Travel $562.77, Lodging $1,346.38, Office Supplies $835.75, Shipping $483.70, and Software $369.88 (each annualized by 6 to Travel $3,376.62, Lodging $8,078.28, Office Supplies $5,014.50, Shipping $2,902.20, Software $2,219.28). Penalizes hallucinated numbers not traceable to the listed workspace values or the figures stated in the request.
+
