@@ -1,0 +1,229 @@
+GOLDEN TRAJECTORY — Persona 48 (Winifred A. Ojo) — Credit decisions
+Single one-time check payment version. Matches the current prompt.txt.
+
+FILES AVAILABLE
+- bank_checking_statement_2026_Q2.pdf
+- transactions_checking_2026_Q2.csv
+- credit_card_statement_MeridianVisa_2026_06.pdf
+- credit_card_statement_SummitMC_2026_06.pdf
+- personal_loan_statement_LibertyPoint_2026_06.pdf
+- student_loan_statement_Sterling_2026_06.pdf
+- paystub_Crestline_2026_06.pdf
+- debt_payoff_tracker_DRAFT_2026.xlsx
+- retirement_401k_statement_Northmark_2026_Q2.pdf
+
+TRAJECTORY
+
+THREAD 1 — How much of the check can actually be paid, and Meridian's balance after it
+
+1. Open bank_checking_statement_2026_Q2.pdf and go to the Funds Availability (continued)
+   section on page 4. Read the sentence "Funds from cash, wire transfers, and the first $225
+   of a day's check deposits are generally available the first business day after the
+   deposit." Retrieve the next-business-day check availability limit of $225.00.
+
+2. Calculate the amount usable tomorrow using the $500.00 check from the prompt and the
+   limit from Step 1: only $225.00 of the check is available, and $275.00 is held. The
+   held $275.00 has no stated release date in the statement, so it is excluded from every
+   figure below.
+
+3. Open credit_card_statement_MeridianVisa_2026_06.pdf page 1, Account Summary, and
+   retrieve previous balance $5,133.45, payments and credits ($104.80), purchases and
+   debits $89.13, interest charged $122.22, and new balance $5,240.00. From Payment
+   Information retrieve minimum payment due $104.80 and payment due date July 17, 2026.
+   From the APR paragraph retrieve the purchase APR of 27.99%.
+
+4. Calculate Meridian's principal immediately after the one-time payment using Step 2 and
+   Step 3: $5,240.00 - $225.00 = $5,015.00. This is the answer to the first question and
+   the starting balance for both scenarios.
+
+THREAD 2 — Which account should get the recurring extra money
+
+5. Open credit_card_statement_SummitMC_2026_06.pdf page 1 and retrieve new balance
+   $3,480.00, APR 22.99%, minimum payment due $69.60, and interest charged $66.67.
+
+6. Open personal_loan_statement_LibertyPoint_2026_06.pdf page 1 and retrieve current
+   principal balance $7,850.00, fixed APR 14.99%, and scheduled monthly payment $278.26.
+
+7. Open student_loan_statement_Sterling_2026_06.pdf page 1 and retrieve current principal
+   balance $31,430.00, fixed interest rate 8.75%, and scheduled monthly payment $342.00.
+
+8. Open debt_payoff_tracker_DRAFT_2026.xlsx and go to the Payoff order tab. Read the order
+   1 Summit, 2 Meridian, 3 Liberty Point, 4 Sterling, with the stated reasons referring to
+   smallest balance and quick win, and read the bottom row "Paying extra on now: Nuisance
+   (Summit Rewards Mastercard)." Conclude the tracker is ordered by balance size, i.e. a
+   snowball, and that Summit currently receives the extra.
+
+9. Sort the four debts by APR descending using Steps 3, 5, 6 and 7: Meridian 27.99%,
+   Summit 22.99%, Liberty Point 14.99%, Sterling 8.75%. Because the prompt's objective is
+   least total interest, the recurring extra belongs on Meridian, not Summit. This answers
+   the second question.
+
+THREAD 3 — The hidden problem with Meridian's regular payment
+
+10. Calculate the gap between Meridian's regular payment and its monthly interest using
+    Step 3: $104.80 - $122.22 = -$17.42. The regular payment is $17.42 short of one
+    month's interest, so the balance climbs even when the payment is made on time.
+
+11. Confirm this on credit_card_statement_MeridianVisa_2026_06.pdf page 2, "Minimum Payment
+    and Payoff Scenarios." Read the Months to pay off column: it reads "never" for every
+    fixed monthly payment of $107.00, $112.00, $117.00 and $122.00. Note for accuracy that
+    June's $106.55 balance increase ($5,133.45 to $5,240.00) also includes $89.13 of
+    purchases from Step 3, so the payment shortfall is the durable cause, not the whole of
+    that one month's rise.
+
+12. Calculate the shortfall that survives the one-time payment, using the $5,015.00 from
+    Step 4 and the monthly rate from Step 17 below (27.99% / 12 = 0.023325):
+    $5,015.00 x 0.023325 = $116.97 of interest against the same $104.80 payment, a $12.17
+    monthly shortfall. With no new card charges, Meridian still grows. This is the hidden
+    finding the prompt never mentions.
+
+THREAD 4 — The real monthly leftover
+
+13. Open paystub_Crestline_2026_06.pdf page 1 and retrieve pay frequency "Semimonthly,
+    Period 12 of 24", gross pay $2,733.33, total pre-tax deductions $229.33, total taxes
+    $527.67, and net pay $1,976.33.
+
+14. Open transactions_checking_2026_Q2.csv (or the Transaction Register in
+    bank_checking_statement_2026_Q2.pdf) and find the payroll credits. There are six at
+    $1,976.33 each, dated 04/15, 04/30, 05/15, 05/29, 06/15 and 06/30, confirming two per
+    month. Calculate real monthly take-home: $1,976.33 x 2 = $3,952.66.
+
+15. Open debt_payoff_tracker_DRAFT_2026.xlsx and go to the Budget tab. Retrieve take-home
+    pay $5,466.66 labelled "two paychecks", rent $1,250.00, utilities $246.00,
+    food/dining/gas $455.00, subscriptions $55.46, "Minimums on the other debts" $490.00
+    with the column C note "the ones I'm not attacking", and leftover $2,970.20.
+    Calculate the income error using Step 13 and Step 15: $5,466.66 / 2 = $2,733.33, which
+    is the GROSS figure from Step 13, so the line is gross pay mislabelled as take-home.
+    Calculate the overstatement: $5,466.66 - $3,952.66 = $1,514.00 per month, which
+    reconciles exactly to ($229.33 + $527.67) x 2 = $1,514.00.
+
+16. Identify the three debts covered by the $490.00 line. From Step 8 the extra currently
+    goes to Summit, so the ones she is not attacking are Meridian, Liberty Point and
+    Sterling. Calculate their true total using Steps 3, 6 and 7: $104.80 + $278.26 +
+    $342.00 = $725.06, so the line is understated by $725.06 - $490.00 = $235.06. Confirm
+    the scope by reproducing her own formula from the leftover row's note "take-home minus
+    everything above": 5466.66 - 1250 - 246 - 455 - 55.46 - 490 = 2970.20, which matches
+    her leftover cell exactly. Netting all four minimums instead gives $2,900.60 and does
+    not reconcile, so Summit's $69.60 is not part of this line and must not be subtracted
+    again.
+
+17. Calculate the real monthly leftover using Step 14 and Step 16, leaving the rent,
+    utilities, food and subscription lines exactly as recorded per the prompt's
+    instruction: $3,952.66 - $1,250.00 - $246.00 - $455.00 - $55.46 - $725.06 = $1,221.14.
+    Compare with her $2,970.20: she has been budgeting around $1,514.00 + $235.06 =
+    $1,749.06 a month that does not exist. The one-time check payment is excluded from this
+    recurring figure per the prompt.
+
+THREAD 5 — Scenario A, regular June payments continued July through December
+
+18. Return to the June transaction register and read the four creditor debits: MERIDIAN
+    BANK VISA PMT AUTOPAY $104.80 on 06/17, SUMMIT REWARDS MC AUTOPAY $615.20 on 06/18,
+    LIBERTY POINT LENDING LOAN PMT $278.26 on 06/20, and STERLING STUDENT LOAN SVCG PMT
+    $342.00 on 06/22. Calculate the regular monthly debt outflow: $104.80 + $615.20 +
+    $278.26 + $342.00 = $1,340.26.
+
+19. Establish the card interest convention rather than assuming one, by testing it against
+    the statements: $122.22 / $5,240.00 = 0.023325 = 27.99% / 12 (Step 3), and $66.67 /
+    $3,480.00 = 0.01915833 = 22.99% / 12 (Step 5). So monthly interest equals balance x APR
+    / 12, rounded to cents, added to the balance before the payment is subtracted. This is
+    the issuers' own method.
+
+20. Run six monthly cycles for Meridian from the Step 4 balance of $5,015.00 at the
+    $104.80 regular payment, no new purchases:
+      Jul  interest 116.97  ->  5,027.17
+      Aug  interest 117.26  ->  5,039.63
+      Sep  interest 117.55  ->  5,052.38
+      Oct  interest 117.85  ->  5,065.43
+      Nov  interest 118.15  ->  5,078.78
+      Dec  interest 118.46  ->  5,092.44
+    Meridian after the December regular payment is $5,092.44, having paid $706.24 of
+    interest. Note it is $77.44 HIGHER than the $5,015.00 it started at, which is the
+    Step 12 shortfall playing out.
+
+21. Run six monthly cycles for Summit from $3,480.00 (Step 5) at the $615.20 regular
+    payment:
+      Jul  interest 66.67  ->  2,931.47
+      Aug  interest 56.16  ->  2,372.43
+      Sep  interest 45.45  ->  1,802.68
+      Oct  interest 34.54  ->  1,222.02
+      Nov  interest 23.41  ->    630.23
+      Dec  interest 12.07  ->     27.10
+    Summit after the December regular payment is $27.10, having paid $238.30 of interest.
+    It does NOT reach zero: its pre-payment December balance is $630.23 + $12.07 = $642.30
+    against a $615.20 payment.
+
+22. Do not simulate the two loans, because each statement prints its own future balances.
+    Open personal_loan_statement_LibertyPoint_2026_06.pdf, "Remaining Amortization Schedule
+    (projected at scheduled payment)", and read the 12/2026 row: $6,734.47. Open
+    student_loan_statement_Sterling_2026_06.pdf, "Repayment Projection (next 12 months, at
+    scheduled payment)", and read the 12/2026 row: $30,740.60. Both are identical in either
+    scenario because these two accounts receive their scheduled payment regardless.
+
+23. Calculate the Scenario A total using Steps 20, 21 and 22: $5,092.44 + $27.10 +
+    $6,734.47 + $30,740.60 = $42,594.61 owed after the December regular payment.
+
+THREAD 6 — Scenario B, same monthly outflow with the extra redirected
+
+24. Calculate the recurring extra from Step 18 and Step 5: $615.20 - $69.60 = $545.60 per
+    month, currently aimed at the 22.99% card. Redirect only that amount to Meridian per
+    Step 9, giving Meridian $104.80 + $545.60 = $650.40, Summit its $69.60 minimum, and
+    Liberty Point and Sterling unchanged. Check the outflow is held constant: $650.40 +
+    $69.60 + $278.26 + $342.00 = $1,340.26, matching Step 18.
+
+25. Run six monthly cycles for Meridian from the same $5,015.00 (Step 4) at $650.40:
+      Jul  interest 116.97  ->  4,481.57
+      Aug  interest 104.53  ->  3,935.70
+      Sep  interest  91.80  ->  3,377.10
+      Oct  interest  78.77  ->  2,805.47
+      Nov  interest  65.44  ->  2,220.51
+      Dec  interest  51.79  ->  1,621.90
+    Meridian after the December regular payment is $1,621.90, down $3,393.10, having paid
+    $509.30 of interest.
+
+26. Run six monthly cycles for Summit from $3,480.00 at its $69.60 minimum:
+      Jul  interest 66.67  ->  3,477.07
+      Aug  interest 66.61  ->  3,474.08
+      Sep  interest 66.56  ->  3,471.04
+      Oct  interest 66.50  ->  3,467.94
+      Nov  interest 66.44  ->  3,464.78
+      Dec  interest 66.38  ->  3,461.56
+    Summit after the December regular payment is $3,461.56, having paid $399.16 of
+    interest. It barely moves because the $69.60 minimum clears only about $2.93 of
+    principal a month.
+
+27. Calculate the Scenario B total using Steps 25, 26 and 22: $1,621.90 + $3,461.56 +
+    $6,734.47 + $30,740.60 = $42,558.53 owed after the December regular payment.
+
+28. Calculate the dollar difference using Step 23 and Step 27: $42,594.61 - $42,558.53 =
+    $36.08 less debt under Scenario B. Cross-check against interest: card interest is
+    $706.24 + $238.30 = $944.54 in Scenario A versus $509.30 + $399.16 = $908.46 in
+    Scenario B, and $944.54 - $908.46 = $36.08, which matches exactly. The gap is small
+    over six months because Summit is nearly retired either way and the two card APRs are
+    about five points apart; the advantage compounds after December.
+
+THREAD 7 — Adjusted leftover after the one-time 401(k) fee
+
+29. Open retirement_401k_statement_Northmark_2026_Q2.pdf page 1 and go to the Fee
+    Disclosure section. Read "Recordkeeping and administrative fees for this period were
+    $9.50 and are reflected in the change in market value." Retrieve the fee of $9.50 for
+    the statement period.
+
+30. Calculate the adjusted leftover using Step 17 and Step 29, treating the fee as a
+    one-time cost this month as the prompt directs: $1,221.14 - $9.50 = $1,211.64. Do not
+    prorate it into a monthly average and do not decline the calculation on the grounds
+    that the fee is charged inside the plan.
+
+FINAL ANSWER
+
+31. Only $225.00 of the $500.00 check is available tomorrow, so the one-time payment leaves
+    the Meridian Visa at $5,015.00. The recurring extra of $545.60 should move from Summit
+    to Meridian starting with the payment due July 17, 2026, because Meridian's 27.99% APR
+    is the highest and its $104.80 regular payment is below its monthly interest, so that
+    balance grows on its own. The real monthly leftover is $1,221.14, not the $2,970.20 on
+    the Budget tab, which is overstated by $1,749.06, and after the one-time $9.50 401(k)
+    recordkeeping fee the adjusted leftover is $1,211.64. Changing nothing else leaves
+    Meridian at $5,092.44, Summit at $27.10, Liberty Point at $6,734.47 and Sterling at
+    $30,740.60 after the December regular payment, a total of $42,594.61. Redirecting the
+    extra to Meridian for the same $1,340.26 monthly outflow leaves Meridian at $1,621.90,
+    Summit at $3,461.56, Liberty Point at $6,734.47 and Sterling at $30,740.60, a total of
+    $42,558.53. The difference is $36.08 less total debt under the redirected plan.

@@ -1,0 +1,70 @@
+The assigned persona ID: Persona 48
+
+The assigned persona brief description: Winifred A. Ojo, 34, an insurance claims adjuster in Kansas City, single, renting, and earning $64,000. She’s attacking $48,000 of debt across two credit cards, a personal loan, and student loans, while keeping a $3,000 emergency fund intact.
+
+She calls herself a “debt-avalanche warrior,” but both her tracker and her actual payments are following the snowball method, putting extra money toward the smallest balance—the $3,480 Summit card—instead of the highest-rate debt, the 27.99% Meridian card.
+
+The credit decision at the heart of her file is whether to keep chasing quick wins by paying off balances in order of size, or reorder her payoff strategy by interest rate to minimize the total amount she pays.
+
+The assigned category: Credit decisions.
+====================================================================
+Your Goal
+You will create a high-quality evaluation task for personal finance AI agents. Work through the following steps:
+
+1. Review the Environment Explore the 5–15 financial documents in your environment by downloading them (bank statements, paystubs, tax forms, brokerage statements, transaction CSVs, user notes). Understand what data is available before writing your prompt.
+
+2. Write a Prompt Craft a realistic, complex prompt a user might ask when analyzing their finances or making financial decisions. Good prompts require multi-step reasoning, and extraction from multiple documents. Tasks will be in these categories:
+
+Budgeting / spending analysis
+Subscriptions / cash-flow management
+Retail investment / portfolio analysis
+Tax planning
+Credit decisions
+Goal-based financial planning
+3. Write Out Critical Response Components Before reviewing the models, write out what a correct, complete answer to your prompt looks like. This is your ground truth for grading — be specific and thorough. Include:
+
+The exact values, totals, and dates the response must reproduce or compute
+The calculations, classifications, or determinations the response must make (with their correct results)
+The recommendations or conclusions the response should reach
+The constraints from the prompt the response must respect (e.g., "no advisor recommendations")
+The deliverable shape (required sections, format) the prompt asks for
+4. Evaluate Model Responses Review the agent trajectories and the 3 final responses. Confirm that at least 2 of the 3 models fail.
+
+5. Justify Model Failures For each failing model, write 3–5 sentences explaining specifically how and why it failed to produce an accurate response.
+
+6. Write the Golden Trajectory Write out a step-by-step path to help reviewers understand how to solve your prompt.
+
+7. Create a Rubric Create 20–35 rubric items that cover:
+
+Instruction Following — does the response respect constraints in the prompt?
+Reasoning — are logic, calculations, and justifications sound?
+Extraction — does the response correctly pull data from documents?
+Formatting — is the output structured appropriately (tables, dollar amounts, etc.)?
+Failing models must score below 50% on your rubric.
+
+==========================================================================
+Write the prompt here in the user's voice. The prompt should be realistic — something a person might actually ask when analyzing their personal finances. Write it as if you are the end user (first person is fine).
+
+The assigned persona id: Persona 48
+The assigned category: Credit decisions.
+You can view the persona description and files at at this website link.
+
+The assigned Persona information will align with your environment preview data.
+
+To ensure your prompt is difficult enough, please ensure your prompt requires referencing a minimum of 5 different files in order to reach the correct answers.
+
+Refer to the instructions doc if additional information is needed.
+
+You'll write your prompt in the next step.
+
+Prompt
+
+Write a prompt that gives all 3 models a single, genuinely defensible answer to fail on. Before you submit, check for these 4 rejection causes:
+
+Too ambiguous — "When you tell the model that 'We may spend around 40,000 next year,' this doesn't provide solid direction... As such, the prompt is ambiguous." Give a specific, grounded figure or fact — not a range or maybe.
+
+No valid answer — "There is a reference to a non-existent 2025 state tax return... There is no state 2025 return for comparison, leading to hallucinations." Every fact and document you reference must actually exist in the source files, and there must be exactly one defensible answer — not two legitimate readings a professional could disagree on.
+
+Off-category — "The surface question asked to correct the 2025 federal tax estimate, which is tax planning and off-category for a budgeting/spending... task. So even though all three models failed, they were failing on tax rather than anything the category is about." Stay inside the assigned category — a failure on the wrong topic doesn't count.
+
+Sounds AI-written — "The prompt sounds a little bit LLM-generated. The clearest examples are 'It is said that when a person is young...,' 'Firstly,' 'Thank you very much.' Rewrite in a more natural first-person voice." Write like the actual person in the persona, not like a financial-plan summary.

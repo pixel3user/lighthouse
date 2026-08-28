@@ -1,0 +1,49 @@
+Viewed W2_Crestline_2025.pdf:1-800
+Viewed retirement_401k_statement_Northmark_2026_Q2.pdf:1-800
+Viewed form1098E_StudentLoanInterest_2025.pdf:1-800
+Viewed form1040_2024_prior_year_return.pdf:1-800
+Viewed bank_checking_statement_2026_Q2.pdf:1-800
+
+This is a brilliant strategy for creating a robust evaluation task. Large Language Models (LLMs) suffer heavily from **"knowledge retrieval bias"**—when they see a document they are familiar with (like a W-2, 1040, or 1098-E), they often stop reading the actual file and instead hallucinate the standard boilerplate instructions from their training data. 
+
+By targeting the unique, customized, or abbreviated instructions in these specific PDFs, we can easily catch models that are "cheating" rather than performing true document extraction.
+
+Here are the most highly specific, mutually exclusive instructions I found in these documents that differ from the standard templates:
+
+### 1. The W-2 "Box 12" Trap (`W2_Crestline_2025.pdf`)
+* **The Reality:** Standard IRS W-2s have a massive "Box 12 Codes" reference section on the back that lists every code from A to ZZ. 
+* **The Unique Document Text:** On page 6 of Winifred's W-2, under the specific heading **"Box 12 Code Reference"**, the document *only* lists two codes: 
+  * `Code A. Uncollected Social Security or RRTA tax on tips.`
+  * `Code B. Uncollected Medicare tax on tips.`
+* **The Trick:** If you ask the model, *"According strictly to the 'Box 12 Code Reference' list on page 6 of my W-2, what does Code D stand for?"*, the correct answer is that **it is not listed in that section**. An LLM relying on its training data will fail by proudly telling you it stands for 401(k) elective deferrals, proving it didn't read the actual section.
+
+### 2. The 1040 "Custom Tables" Trap (`form1040_2024_prior_year_return.pdf`)
+* **The Reality:** The IRS Form 1040 instructions are standardized.
+* **The Unique Document Text:** The software that generated this 1040 injected highly customized tables on pages 5 and 6 that do not exist on standard IRS forms:
+  * A **"Three-Year Federal Tax Comparison"** table comparing her 2022, 2023, and 2024 income, adjustments, and refunds.
+  * An **"IRS Interest Rates on Underpayments and Overpayments — Recent Quarters"** table showing a flat 8% rate for all quarters in 2024 and 2025.
+* **The Trick:** Ask the model to extract the "2022 Adjusted gross income" from the Three-Year Comparison table, or the "Q3 2025 Individual underpayment rate". Models that assume this is just a standard 1040 will fail to find these custom software-generated tables.
+
+### 3. The 401(k) Fee & Match Trap (`retirement_401k_statement_Northmark_2026_Q2.pdf`)
+* **The Reality:** 401(k) statements vary wildly by provider.
+* **The Unique Document Text:** 
+  * Under *Fee Disclosure*: "Recordkeeping and administrative fees for this period were **$9.50**... Investment expense ratios range from **0.03% to 0.34%** annually depending on the fund."
+  * Under *Contribution Detail*: "Employer matching contributions are **50% of the first 4%** of eligible pay you defer."
+* **The Trick:** Ask the model to calculate exactly how much her employer would match if she deferred $10,000, or ask for the exact range of her investment expense ratios. Models cannot guess these numbers; they must actively read the fine print.
+
+### 4. The Bank Statement Funds Availability Trap (`bank_checking_statement_2026_Q2.pdf`)
+* **The Reality:** For years, standard bank hold disclosures (Reg CC) stated that the first $200 of a check was available the next day. The law recently changed this to $225. 
+* **The Unique Document Text:** Page 4 under *Funds Availability* explicitly states: "...the first **$225** of a day's check deposits are generally available the first business day after the deposit."
+* **The Trick:** Ask the model, *"According to my bank statement's Funds Availability policy, what is the exact dollar amount of a check deposit that is generally available on the first business day?"* Models relying on older training data will confidently hallucinate "$200".
+
+### 5. The 1098-E Truncated Instructions (`form1098E_StudentLoanInterest_2025.pdf`)
+* **The Reality:** The official IRS 1098-E contains instructions for both the Student and the Borrower, and includes a specific URL (`irs.gov/Form1098E`).
+* **The Unique Document Text:** Page 2 of this PDF is a highly truncated, custom version of the instructions. It only includes "Instructions for Borrower", and the IRS URL is entirely missing.
+* **The Trick:** Ask the model, *"What website URL does my 1098-E document tell me to visit for more information?"* A model that is hallucinating will spit out the standard `irs.gov/Form1098E` link, whereas the correct answer is that no URL is provided in the document's instructions.
+
+***
+
+**How to use this:**
+We can weave these "traps" into our final prompt as secondary questions. For example, while the main task is calculating her Debt-to-Income ratio or Avalanche timeline, she can add: *"Also, I want to deposit a $500 check today—according strictly to my bank statement's Funds Availability section, exactly how much of that will be available tomorrow?"* 
+
+Which of these "traps" do you like best? I can combine them with our previous math tasks to draft the ultimate golden prompt.

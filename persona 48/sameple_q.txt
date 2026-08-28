@@ -1,0 +1,32 @@
+### 6. Boolean Condition Over Time
+* **Original Dataset Pattern:** *"List all companies where their net cash from operating activities exceeded their consolidated net income."*
+* **Adapted Task:** Review my checking transactions CSV and identify any months in Q2 2026 where my total extra debt payments (above the minimums) exceeded my discretionary spending.
+
+### 7. Comparing Values Across Different Contexts
+* **Original Dataset Pattern:** *"Which companies have total revenues greater than their total assets?"*
+* **Adapted Task:** Calculate if the total interest I paid on my student loans in 2025 (referencing Form 1098-E) was greater than the current balance of my $3,000 emergency fund.
+
+### 10. Conditional Identification
+* **Original Dataset Pattern:** *"Identify companies with a positive consolidated net income but negative net cash from operating activities."*
+* **Adapted Task:** Identify any debts where I am making more than the minimum payment, but the principal balance is still decreasing by less than 50% of the payment amount due to high interest charges.
+
+### 11. Creating Custom Metrics
+* **Original Dataset Pattern:** *"Find the top 3 universities with the highest 'admissions yield', calculated as the ratio of enrolled students to admitted students."*
+* **Adapted Task:** Calculate the "interest-to-principal ratio" for my recent payments on the Meridian and Summit cards to determine what percentage of my money is going purely to interest.
+
+### 12. Strategic Comparison (A/B Testing)
+* **Original Dataset Pattern:** *"Calculate the difference between the average six-year graduation rate for universities with over 15,000 students and those with under 5,000 students."*
+* **Adapted Task:** Calculate the difference in total interest paid by December 2026 if I allocate all my extra monthly payments toward the Meridian card (Avalanche) versus the Summit card (Snowball), referencing my Draft 2026 Tracker.
+
+### 13. Threshold Comparison
+* **Original Dataset Pattern:** *"Identify companies where the adjustment for depreciation and amortization is larger than their consolidated net income."*
+* **Adapted Task:** Identify if the total interest charged across all 4 debt accounts in June 2026 was larger than a single bi-weekly net paycheck from Crestline.
+
+### 14. Weighted Averages & Variances
+* **Original Dataset Pattern:** *"What is the numerical difference between the average conversion rate of universities in the top quartile versus those in the bottom quartile?"*
+* **Adapted Task:** Calculate the weighted average interest rate across my entire $48,000 debt portfolio. What is the numerical difference between this average rate and the APR of my Meridian Visa?
+
+### 15. Percentage Limits
+* **Original Dataset Pattern:** *"Identify universities where the number of enrolled transfer students is more than 25% of the number of enrolled first-year students."*
+* **Adapted Task:** Based on my checking statement and paystub, identify if my total monthly debt obligations (minimum payments + extra payments) consume more than 25% of my gross monthly income.
+

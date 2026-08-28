@@ -1,0 +1,9 @@
+I think the prompt itself is solid, but after rescoring the responses I’m not seeing two clear failures anymore. I’d make the task a little harder, rerun the models, and then update the downstream sections to match.
+
+The Critical Elements add a few restrictions that aren’t actually stated in the prompt, like no balance transfer or consolidation loan. Either put those constraints in the prompt or take them out of the ground truth.
+
+I’d revisit the failure calls on Responses 1 and 2. They both miss some details, but they get most of the main credit-decision work right, so I don’t think the current justifications support both responses falling below 50%.
+
+The 401(k) fee treatment needs to be clearer. The trajectory subtracts the full $9.50 quarterly fee from one month’s leftover, but prorating it to $3.17 per month is also a reasonable reading, so the prompt and trajectory need to agree on which one is intended.
+
+There’s quite a bit of overlap in the rubric. A few of the same mistakes are being scored more than once, especially around the Meridian-first recommendation, the repeated loan balances, and the 401(k) recommendation. I’d clean those up and rescore the models before finalizing the failure calls.

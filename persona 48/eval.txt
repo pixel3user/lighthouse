@@ -1,0 +1,4 @@
+- Add rounding tolerance for Summit Scenario-A balance ($27.10 vs $27.11).
+- Fee criterion [+60 -> $1,211.64]: statement says the $9.50 recordkeeping fee is 'reflected in the change in market value' i.e. charged inside the 401(k); subtracting it from a monthly CASH leftover is questionable, and $9.50 is a QUARTERLY figure. Clarify intent (literal $9.50 vs monthly $3.17) or drop; Opus's flag that it doesn't hit checking is defensible.
+- Leftover criterion [+85 -> $1,221.14]: add a note that 'the three I'm not putting extra on' = her CURRENT plan (Meridian+Liberty+Sterling = $725.06), to preempt the plausible $689.86/1,256.34 reading Gemini & GPT used.
+- platform QC check FAILED as of this revision -- MECE check: Criteria 1 and 3 [straight duplicate]: Both test the same observable â€” that Meridian Bank Visa Signature should be the #1 priority for extra payments. A model that identifies the wrong top-priority ac

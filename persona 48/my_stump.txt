@@ -1,0 +1,23 @@
+Review each model's response and agent trajectory. A model FAILS if its response would score below 50% on a well-constructed rubric for this task.
+
+For each response that FAILED, write 3–5 sentences explaining specifically how and why the model's response was incorrect or insufficient.
+
+Reference specific errors: wrong numbers, missed data sources, bad reasoning steps, ignored constraints, etc. Leave blank for any model that passed.
+
+If 3/3 responses fail, write justifications for all 3. If only 2 fail, leave the one blank.
+
+You'll do this in the next step.
+
+====================================================================
+FAILURE JUSTIFICATIONS — Persona 48 (Winifred A. Ojo) — Credit decisions
+====================================================================
+
+MODEL 1 (res1) — FAIL
+
+The model failed multiple explicit math and instruction checks. First, it calculated the wrong Real Leftover budget ($1,256.34 instead of $1,221.14) because it incorrectly used the minimums for its recommended plan instead of evaluating the user's current tracker. Second it fell into a "Source Beats Memory" trap by failing to read the Funds Availability section of the checking statement and blindly subtracted the full $500 check deposit instead of the $225 next day limit. Third, it ignored the explicit instruction to subtract the exact $9.50 401(k) fee, choosing instead to prorate it to $3.17.
+
+MODEL 2 (res2) — FAIL
+
+The model failed to execute several strict calculations and constraints. It incorrectly calculated the Real Leftover budget as $1,256.34 by applying the wrong minimum payments. It also failed the 401(k) fee instruction. Choosing to prorate the fee to $3.17 rather than performing the exact requested subtraction of $9.50. It completely missed the Funds Availability trap on the check deposit. Improperly subtracting the full $500 instead of the $225 allowed by the bank's rules. Finally it failed to identify the exact 4% employee deferral rate required to answer the coworker's 401(k) advice question.
+
+MODEL 3 (res3) — PASS
