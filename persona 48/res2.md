@@ -1,71 +1,34 @@
 1. **Reasoning**
 
-I used the June statements, checking register, payoff tracker, paystub, and 401(k) statement.
-
-Key debt data:
-
-| Debt | June balance | APR | June/statement payment |
-|---|---:|---:|---:|
-| Meridian Visa | \$5,240.00 | 27.99% | \$104.80 |
-| Summit Mastercard | \$3,480.00 | 22.99% | \$69.60 minimum, \$615.20 paid in June |
-| Liberty Point personal loan | \$7,850.00 | 14.99% | \$278.26 |
-| Sterling federal student loan | \$31,430.00 | 8.75% | \$342.00 |
-
-The paper check is not income. Assuming it is deposited before cutoff and no extended hold applies, the \$500 is available the next business day under the checking statement’s funds-availability language. Applying that as a one-time Meridian principal payment gives:
-
-`\$5,240.00 - \$500.00 = \$4,740.00`
-
-For least total interest, the recurring extra should go to the highest APR debt: **Meridian Visa**, not Summit. Summit is the smaller balance, but Meridian’s 27.99% APR is higher than Summit’s 22.99%.
-
-Budget reconciliation:
-
-The tracker budget has two bad assumptions:
-
-| Item | Tracker | Actual |
-|---|---:|---:|
-| Take-home pay | \$5,466.66 | \$3,952.66 |
-| Minimums on non-extra debts, current Summit-extra setup | \$490.00 | \$725.06 |
-
-Actual take-home is two semimonthly net deposits of `\$1,976.33`, or `\$3,952.66/month`.
-
-Using the other budget-tab expense amounts as recorded:
-
-`\$3,952.66 - \$1,250.00 - \$246.00 - \$455.00 - \$55.46 - \$725.06 = \$1,221.14`
-
-So the real monthly leftover under the tracker’s current Summit-extra setup is **\$1,221.14**.
-
-The 401(k) recordkeeping/admin fee shown for Q2 is **\$9.50**. Treating that as a one-time current-month cost:
-
-`\$1,221.14 - \$9.50 = \$1,211.64`
+- The checking statement says ordinary check deposits are generally available the first business day after deposit, so I treated the full `\$500` as available.
+- Meridian June statement balance was `\$5,240.00`; after the one-time `\$500` principal payment, Meridian is `\$4,740.00`.
+- The highest APR debt after that is Meridian at `27.99%`, above Summit `22.99%`, Liberty `14.99%`, and Sterling `8.75%`, so Meridian should receive the recurring extra to minimize interest.
+- June debt payments recorded were Meridian `\$104.80`, Summit `\$615.20`, Liberty `\$278.26`, Sterling `\$342.00`, totaling `\$1,340.26`.
+- For the comparison, I used July-December card interest as monthly APR interest on opening balance before payment, and used the installment loan statements’ scheduled amortization balances for Liberty and Sterling.
+- The budget workbook’s “take-home” figure appears to be gross pay; the paystub shows actual net pay of `\$1,976.33` per paycheck, so monthly take-home is `\$3,952.66`.
 
 2. **Output**
 
 Meridian balance immediately after the one-time check payment: **\$4,740.00**
 
-Recommended recurring extra target: **Meridian Visa**
+Recommended recurring extra target: **Meridian Bank Visa Signature**
 
-Real monthly leftover, current tracker setup: **\$1,221.14**
+Monthly leftover recalculation:
 
-Adjusted leftover this month after the 401(k) admin fee: **\$1,211.64**
+`\$3,952.66 take-home - \$2,006.46 recorded non-debt expenses - \$1,340.26 June debt payments = \$605.94`
 
-July-December baseline, keeping June payment dollars exactly the same:
+After subtracting the 401(k) recordkeeping/admin fee once:
 
-| Debt | Balance after December regular payment |
-|---|---:|
-| Meridian Visa | \$4,776.63 |
-| Summit Mastercard | \$27.10 |
-| Liberty Point personal loan | \$6,734.47 |
-| Sterling federal student loan | \$30,740.60 |
-| Total debt | \$42,278.80 |
+**Adjusted leftover: \$596.44**
 
-July-December optimized, same total monthly out-of-pocket, redirecting Summit extra to Meridian:
+July-December scenarios:
 
-| Debt | Balance after December regular payment |
-|---|---:|
-| Meridian Visa | \$1,306.11 |
-| Summit Mastercard | \$3,461.56 |
-| Liberty Point personal loan | \$6,734.47 |
-| Sterling federal student loan | \$30,740.60 |
-| Total debt | \$42,242.74 |
+| Debt | Continue June Allocation: Extra to Summit | Recommended: Extra to Meridian |
+|---|---:|---:|
+| Meridian Visa | \$4,776.63 | \$1,306.11 |
+| Summit Mastercard | \$27.10 | \$3,461.56 |
+| Liberty Point personal loan | \$6,734.47 | \$6,734.47 |
+| Sterling student loan | \$30,740.60 | \$30,740.60 |
+| **Total debt after Dec payment** | **\$42,278.80** | **\$42,242.74** |
 
-Total debt difference after December: **\$36.06 less debt** with the Meridian-first approach.
+Difference in total debt after December payment: **\$36.06 lower** with the Meridian-extra scenario.

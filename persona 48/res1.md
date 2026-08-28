@@ -1,50 +1,118 @@
-1. **Reasoning**
-- **One-Time Payment:** The June credit card statement for the Meridian Visa shows a balance of \$5,240. Applying the \$500 check entirely to principal immediately reduces the balance to \$4,740.
-- **Extra Payment Strategy:** To pay the least total interest (the Avalanche method), extra money should go toward the debt with the highest interest rate. The Meridian Visa has the highest APR (27.99%) compared to the Summit Mastercard (22.99%), Liberty Point (14.99%), and Sterling (8.75%). Meridian should receive the recurring extra money, rather than Summit. 
-- **Budget Reconciliation:** 
-  - *Income Assumption:* The tracker uses \$5,466.66 for two paychecks, which is the *gross* pay amount before taxes and deductions. Your June paystub confirms your actual *net* (take-home) pay is \$1,976.33 per paycheck, making your real monthly income \$3,952.66.
-  - *Debt Minimums Assumption:* The tracker estimates \$490 for the minimum payments on the three debts not being targeted. However, the statements show the actual minimums are: Meridian (\$104.80) + Liberty Point (\$278.26) + Sterling (\$342.00) = \$725.06.
-  - *Real Monthly Leftover:* Using actual numbers: \$3,952.66 (Income) - \$1,250 (Rent) - \$246 (Utilities) - \$455 (Food/Gas) - \$55.46 (Subscriptions) - \$725.06 (the 3 minimums) = \$1,221.14.
-- **Scenario 1 (Status Quo - July through Dec):** 
-  - Starts with Meridian at \$4,740 and applies the exact payments made in June: Meridian (\$104.80), Summit (\$615.20), Liberty (\$278.26), and Sterling (\$342.00). 
-  - Calculating standard monthly interest over 6 months gives the following ending balances: Meridian (\$4,776.63), Summit (\$27.10), Liberty (\$6,734.47), Sterling (\$30,740.60). Total Debt = \$42,278.80.
-- **Scenario 2 (Avalanche Strategy - July through Dec):**
-  - Keeps total out-of-pocket the same as June (\$1,340.26), but reallocates the extra money to Meridian. 
-  - Summit's payment drops to its minimum (\$69.60). Meridian's new payment becomes \$650.40 (\$1,340.26 minus the \$689.86 minimums for the other three accounts).
-  - Calculating standard monthly interest over 6 months gives the following ending balances: Meridian (\$1,306.11), Summit (\$3,461.56), Liberty (\$6,734.47), Sterling (\$30,740.60). Total Debt = \$42,242.74.
-- **Dollar Difference:** Total debt in Scenario 1 (\$42,278.80) minus Total debt in Scenario 2 (\$42,242.74) = \$36.06 saved in interest over the 6-month period alone. 
-- **401(k) Fee Adjustment:** The Q2 401(k) statement records a recordkeeping and administrative fee of \$9.50. Subtracting this from the real monthly leftover yields the final adjusted amount.
+**1. \*\*Reasoning\*\***
 
-2. **Output**
+**- \*\*Bank Deposit Availability\*\*: According to the Blue Valley Bank Checking Statement's "Funds Availability" policy, the first \\$225 of a check deposit is available on the first business day.** 
 
-**Immediate Meridian Balance**
-After the \$500 one-time principal payment, your Meridian Visa balance will be **\$4,740.00**.
+**- \*\*Meridian Balance Update\*\*: The Meridian Visa June ending balance is \\$5,240.00. Applying the \\$225.00 available funds from the deposit as a one-time principal payment drops the starting July balance to \\$5,015.00.**
 
-**Recommended Target Account**
-You should redirect the recurring extra money to the **Meridian Visa**. It has an APR of 27.99%, which is higher than your Summit Mastercard (22.99%). Targeting the highest interest rate saves you the most money.
+**- \*\*Minimizing Interest\*\*: To minimize total interest paid (the Avalanche method), extra payments should be directed to the debt with the highest Annual Percentage Rate (APR). The Meridian Visa APR is 27.99%, which is higher than Summit MC (22.99%), Liberty Point (14.99%), and Sterling (8.75%). Therefore, Meridian should receive the extra funds.**
 
-**Budget Reconciliation**
-- **Income Error:** Your tracker uses your gross pay. Your actual monthly net take-home pay is \$3,952.66.
-- **Minimums Error:** Your tracker underestimated your minimum payments. The actual combined minimum for the three debts not currently receiving extra money (Meridian, Liberty, Sterling) is \$725.06.
-- **Real Monthly Leftover:** Based on accurate income and your exact statement minimums, your real monthly leftover is **\$1,221.14**. 
+**- \*\*Monthly Leftover Calculation\*\*:**
 
-**Scenario 1 Balances (Status Quo after December)**
-If you change nothing and keep paying the exact same amounts to each account as you did in June, your balances after your December payments will be:
-- Meridian Visa: \$4,776.63
-- Summit Mastercard: \$27.10
-- Liberty Point Loan: \$6,734.47
-- Sterling Student Loan: \$30,740.60
+&#x20; **- \*Monthly Take-Home Pay\*: Two June paychecks of \\$1,976.33 equal \\$3,952.66.**
 
-**Scenario 2 Balances (Avalanche Strategy after December)**
-If you redirect the extra money to the Meridian Visa (paying \$650.40/month) and pay the minimum on the Summit Mastercard (\$69.60/month), your balances after your December payments will be:
-- Meridian Visa: \$1,306.11
-- Summit Mastercard: \$3,461.56
-- Liberty Point Loan: \$6,734.47
-- Sterling Student Loan: \$30,740.60
+&#x20; **- \*Recorded Non-Debt Expenses\*: Summing all non-transfer, non-debt debits in June (rent, utilities, subscriptions, groceries, gas, restaurants) yields \\$1,934.03.**
 
-**Difference in Total Debt**
-By switching your extra payments to the Meridian Visa for the rest of the year, your total debt will be **\$36.06** lower in December than it would be if you kept targeting the Summit Mastercard. (This gap will widen significantly in 2027 as the high-interest Meridian balance continues to drop faster).
+&#x20; **- \*June Total Debt Payment\*: Meridian (\\$104.80) + Summit (\\$615.20) + Liberty (\\$278.26) + Sterling (\\$342.00) = \\$1,340.26.**
 
-**401(k) Fee and Adjusted Leftover**
-The recordkeeping and administrative fee shown on your Northmark Q2 statement is **\$9.50**. 
-Treating this as a one-time cost this month, your adjusted leftover budget is **\$1,211.64**.
+&#x20; **- \*Recalculated Leftover\* = \\$3,952.66 - \\$1,934.03 - \\$1,340.26 = \\$678.37.**
+
+**- \*\*Debt Scenarios (July – December)\*\*:** 
+
+&#x20; **- \*Scenario 1 (Repeat June Payments)\*:** 
+
+&#x20;   **- Meridian (\\$104.80/mo): Starting at \\$5,015.00, adding 27.99% annual interest calculated monthly. Dec balance = \\$5,092.44.**
+
+&#x20;   **- Summit (\\$615.20/mo): Starting at \\$3,480.00, adding 22.99% annual interest calculated monthly. Dec balance = \\$27.10.**
+
+&#x20;   **- Liberty (\\$278.26/mo): Follows amortization schedule. Dec balance = \\$6,734.47.**
+
+&#x20;   **- Sterling (\\$342.00/mo): Follows amortization schedule. Dec balance = \\$30,740.60.**
+
+&#x20;   **- Total Debt Scenario 1 = \\$42,594.61.**
+
+&#x20; **- \*Scenario 2 (Minimums + Remainder to Meridian)\*:** 
+
+&#x20;   **- Summit gets its stated minimum of \\$69.60/mo. Liberty and Sterling continue at their fixed scheduled minimums (\\$278.26 and \\$342.00).** 
+
+&#x20;   **- Meridian gets the remainder of the \\$1,340.26 budget: \\$1,340.26 - (\\$69.60 + \\$278.26 + \\$342.00) = \\$650.40/mo.**
+
+&#x20;   **- Meridian (\\$650.40/mo): Dec balance = \\$1,621.90.**
+
+&#x20;   **- Summit (\\$69.60/mo): Dec balance = \\$3,461.56.**
+
+&#x20;   **- Liberty (\\$278.26/mo): Dec balance = \\$6,734.47.**
+
+&#x20;   **- Sterling (\\$342.00/mo): Dec balance = \\$30,740.60.**
+
+&#x20;   **- Total Debt Scenario 2 = \\$42,558.53.**
+
+&#x20; **- \*Difference\*: \\$42,594.61 - \\$42,558.53 = \\$36.08 in saved interest principal.**
+
+**- \*\*401(k) Fee Adjustment\*\*: The Northmark Q2 statement lists a recordkeeping and administrative fee of \\$9.50. Subtracting this from the recalculated leftover gives \\$678.37 - \\$9.50 = \\$668.87.**
+
+
+
+**2. \*\*Output\*\***
+
+**\*\*Initial Updates \& Recommendations\*\***
+
+**\*   \*\*Check Deposit Availability:\*\* Based on your bank's funds availability policy, the first \*\*\\$225.00\*\* of your paper check will be available on the next business day.**
+
+**\*   \*\*Meridian Starting Balance:\*\* After applying the \\$225 one-time payment, your Meridian balance immediately afterward will drop to \*\*\\$5,015.00\*\*.**
+
+**\*   \*\*Recommended Debt:\*\* You should direct all recurring extra payments to the \*\*Meridian Visa card\*\*, as it has the highest interest rate (27.99% APR) and will minimize your total interest.**
+
+
+
+**\*\*Monthly Leftover Recalculation\*\***
+
+**\*   \*\*Take-Home Pay:\*\* \\$3,952.66**
+
+**\*   \*\*Non-Debt Expenses:\*\* \\$1,934.03**
+
+**\*   \*\*June Total Debt Payments:\*\* \\$1,340.26 (\\$104.80 Meridian + \\$615.20 Summit + \\$278.26 Liberty + \\$342.00 Sterling)**
+
+**\*   \*\*Recalculated Leftover:\*\* \*\*\\$678.37\*\***
+
+
+
+**\*\*Scenario Projections (July through December 2026)\*\***
+
+**\*Note: Credit card projections apply the standard formula of monthly interest against the opening balance prior to the payment being made.\***
+
+
+
+**\*\*Scenario 1: Repeating June Payments\*\***
+
+**\*   Meridian Visa (\\$104.80/mo): \\$5,092.44**
+
+**\*   Summit Rewards MC (\\$615.20/mo): \\$27.10**
+
+**\*   Liberty Point Lending (\\$278.26/mo): \\$6,734.47**
+
+**\*   Sterling Student Loan (\\$342.00/mo): \\$30,740.60**
+
+**\*   \*\*Total Scenario 1 Debt in December:\*\* \*\*\\$42,594.61\*\***
+
+
+
+**\*\*Scenario 2: Minimums + Remainder to Meridian Visa\*\***
+
+**\*   Meridian Visa (\\$650.40/mo): \\$1,621.90**
+
+**\*   Summit Rewards MC (\\$69.60/mo): \\$3,461.56**
+
+**\*   Liberty Point Lending (\\$278.26/mo): \\$6,734.47**
+
+**\*   Sterling Student Loan (\\$342.00/mo): \\$30,740.60**
+
+**\*   \*\*Total Scenario 2 Debt in December:\*\* \*\*\\$42,558.53\*\***
+
+
+
+**\*\*Comparison \& Fee Adjustments\*\***
+
+**\*   \*\*Difference in Total Debt:\*\* Shifting your overpayment to the Meridian card saves you \*\*\\$36.08\*\* in total debt over these 6 months by directly attacking the most expensive interest.**
+
+**\*   \*\*Adjusted Leftover:\*\* Subtracting the \\$9.50 recordkeeping and administrative fee listed on your Q2 401(k) statement from your recalculated leftover leaves an adjusted leftover amount of \*\*\\$668.87\*\*.**
+
