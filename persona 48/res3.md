@@ -1,78 +1,75 @@
-# Winifred A. Ojo — Debt Payoff Analysis
+# Personal Finance Analysis — Winifred A. Ojo
 
-## Reasoning
+## 1. Reasoning
 
-### Files used
-- **Meridian Visa (06/22/26):** New balance **\$5,240.00**, APR **27.99%**, min **\$104.80**
-- **Summit Mastercard (06/22/26):** New balance **\$3,480.00**, APR **22.99%**, min **\$69.60**
-- **Liberty Point personal loan:** Balance \$7,850.00, 14.99% fixed, scheduled \$278.26 — installment amortization given
-- **Sterling student loan:** Balance \$31,430.00, 8.75% fixed, scheduled \$342.00 — installment amortization given
-- **Paystub:** Semimonthly net **\$1,976.33** → monthly take‑home = **\$3,952.66**
-- **Checking CSV (June):** non‑debt expenses + the June debt payments
-- **401(k) Q2 statement:** Recordkeeping & administrative fee = **\$9.50**
+**Files used**
+- Bank statement (Blue Valley) — funds‑availability policy, June savings transfer, June debt payments
+- Meridian Visa & Summit Mastercard June statements — balances, APRs, minimums
+- Liberty Point & Sterling statements — scheduled amortization schedules
+- June paystub — net (take‑home) pay
+- 401(k) statement — recordkeeping/admin fee
+- Debt tracker (DRAFT) — its snowball plan (which I correct below)
 
-### 1) One‑time \$500 principal payment to Meridian
-The \$500 check clears next business day and is applied as a one‑time principal reduction before July. This is not a projection month, so no interest step is applied to it:
-**\$5,240.00 − \$500.00 = \$4,740.00.** This becomes the July opening balance.
+**Step 1 — "Available check money" (July 18).** The bank's disclosure states: *"…the first \$225 of a day's check deposits are generally available the first business day after the deposit."* So of the \$500 paper check, only **\$225** is available for use, not the full \$500.
+- Same savings transfer as June = **\$50** (the recurring "TRANSFER TO SAVINGS" was \$50 in April, May, and June).
+- Remainder to Meridian principal = \$225 − \$50 = **\$175**.
 
-### 2) Which debt gets the recurring extra
-To minimize total interest, target the **highest APR** = **Meridian Visa (27.99%)** — the avalanche method. (Summit 22.99% > Liberty 14.99% > Sterling 8.75%.)
+**Step 2 — Meridian balance immediately after.** June closing balance \$5,240.00 − \$175.00 one‑time principal = **\$5,065.00**.
 
-### 3) Recalculated monthly leftover
-- Take‑home: 2 × \$1,976.33 = **\$3,952.66**
-- June **non‑debt expenses** (rent 1,250.00; groceries 131.63+57.15+98.14; utilities Evergy 110.90, Spire 32.98, Water 38.72, Fiber 70.00; subscriptions Netflix 15.49, Spotify 11.99, Apple 2.99, Planet Fitness 24.99; dining Minsky's 31.20, Christopher Elbow 14.75; fuel 43.10) = **\$1,934.03** *(the \$50 savings transfer is a transfer, not an expense, so it is excluded — see anomaly note)*
-- June total debt payment: 104.80 + 615.20 + 278.26 + 342.00 = **\$1,340.26**
+**Step 3 — Which debt gets the recurring extra (to minimize total interest).** Minimizing interest = debt **avalanche** (attack the highest APR first):
+| Debt | APR |
+|---|---|
+| **Meridian Visa (Fury)** | **27.99%** ← highest |
+| Summit Mastercard (Nuisance) | 22.99% |
+| Liberty Point (Anchor) | 14.99% |
+| Sterling student loan (Ghost) | 8.75% |
 
-**Leftover = 3,952.66 − 1,934.03 − 1,340.26 = \$678.37**
+The draft tracker targets Summit (smallest balance / snowball). To minimize **total interest**, the recurring extra should instead go to the **Meridian Visa (27.99%)**.
 
-### 4) Two scenarios, July–Dec (opening Meridian = \$4,740; cards: interest on opening balance, then payment; loans follow scheduled amortization)
-Monthly rates: Meridian 27.99%/12 = 2.3325%; Summit 22.99%/12 = 1.915833%.
+**Step 4 — Recalculated monthly leftover.**
+- Take‑home pay = \$1,976.33 net × 2 pay periods = **\$3,952.66** (the budget sheet's "\$5,466.66" is gross, an error).
+- Recorded non‑debt expenses (kept unchanged): Rent 1,250 + Utilities 246 + Groceries/dining/gas 455 + Subscriptions 55.46 = **\$2,006.46**.
+- Same total June debt payment: 104.80 + 615.20 + 278.26 + 342.00 = **\$1,340.26**.
+- Leftover = 3,952.66 − 2,006.46 − 1,340.26 = **\$605.94**.
+- Minus 401(k) recordkeeping/admin fee (\$9.50, once) = **\$596.44**.
 
-**Scenario A – repeat each June payment** (Mer 104.80 / Sum 615.20 / Lib 278.26 / Ster 342.00)
-**Scenario B – avalanche, same \$1,340.26 total** (others at minimums: Sum 69.60, Lib 278.26, Ster 342.00 → Meridian remainder = 1,340.26 − 689.86 = **\$650.40**)
+**Step 5 — Two scenarios, July–Dec 2026 (start after the one‑time payment; no new card charges).**
+Both hold total monthly debt payment at \$1,340.26. Cards: interest applied to opening balance (Meridian 27.99%/12; Summit 22.99%/12), then payment. Installment loans follow their scheduled amortization (identical in both scenarios → Dec: Liberty \$6,734.47, Sterling \$30,740.60).
 
-Loans are identical in both (scheduled): **Liberty Dec = \$6,734.47**, **Sterling Dec = \$30,740.60**.
+- **Scenario 1 (repeat each June payment):** Meridian 104.80, Summit 615.20, Liberty 278.26, Sterling 342.00.
+- **Scenario 2 (avalanche — recommended):** minimums on others (Summit 69.60, Liberty 278.26, Sterling 342.00) and remainder **\$650.40 to Meridian**.
 
-Card balances after the December payment:
+Note: In Scenario 1, Meridian's \$104.80 payment is **less than its monthly interest (~\$118)**, so that balance actually grows.
 
-| Debt | Scenario A (repeat June) | Scenario B (avalanche) |
+## 2. Output
+
+**Immediate results (July 18)**
+| Item | Amount |
+|---|---|
+| Check deposited | \$500.00 |
+| Available portion (Reg CC, first \$225) | \$225.00 |
+| Savings transfer (same as June) | \$50.00 |
+| One‑time Meridian principal payment | \$175.00 |
+| **Meridian balance immediately afterward** | **\$5,065.00** |
+
+**Recommended debt for the recurring extra:** the **Meridian Visa Signature (Fury), 27.99% APR** — highest rate, so it minimizes total interest (avalanche method), overriding the draft's Summit/snowball choice.
+
+**Balances after the December payment**
+| Debt | Scenario 1 (repeat June pmts) | Scenario 2 (extra → Meridian) |
 |---|---|---|
-| Meridian Visa | \$4,776.64 | \$1,306.11 |
-| Summit MC | \$27.11 | \$3,461.56 |
-| Liberty Point | \$6,734.47 | \$6,734.47 |
-| Sterling | \$30,740.60 | \$30,740.60 |
-| **Total debt** | **\$42,278.82** | **\$42,242.74** |
+| Meridian Visa (27.99%) | \$5,149.86 | \$1,679.33 |
+| Summit Mastercard (22.99%) | \$27.10 | \$3,461.56 |
+| Liberty Point loan (scheduled) | \$6,734.47 | \$6,734.47 |
+| Sterling student loan (scheduled) | \$30,740.60 | \$30,740.60 |
+| **Total debt** | **\$42,652.03** | **\$42,615.96** |
 
-**Difference = 42,278.82 − 42,242.74 = \$36.08** lower under the avalanche scenario (both scenarios pay the same \$1,340.26/month, so the gap is pure interest saved by shifting dollars from the 22.99% card to the 27.99% card).
+**Difference in total debt:** Scenario 2 leaves **\$36.07 less debt** (\$42,652.03 − \$42,615.96) after December — the interest saved by directing the extra to the 27.99% card instead of the 22.99% card.
 
-### 5) 401(k) fee adjustment
-Leftover \$678.37 − \$9.50 recordkeeping/admin fee = **\$668.87**
+**Recalculated monthly leftover:** **\$605.94**
+**Adjusted leftover after subtracting the \$9.50 401(k) recordkeeping/admin fee (once):** **\$596.44**
 
----
-
-## Output
-
-**Meridian balance immediately after the one‑time \$500 payment:** **\$4,740.00**
-
-**Debt to receive the recurring extra (to minimize total interest):** **Meridian Visa** (27.99% APR — highest rate).
-
-**Recalculated monthly leftover:** **\$678.37**  (= \$3,952.66 take‑home − \$1,934.03 June non‑debt expenses − \$1,340.26 June total debt payment).
-
-**Balances after the December payment:**
-
-| Debt | Scenario A – repeat June payments | Scenario B – avalanche (extra to Meridian) |
-|---|---|---|
-| Meridian Visa | **\$4,776.64** | **\$1,306.11** |
-| Summit Mastercard | **\$27.11** | **\$3,461.56** |
-| Liberty Point loan | **\$6,734.47** | **\$6,734.47** |
-| Sterling student loan | **\$30,740.60** | **\$30,740.60** |
-| **Total** | **\$42,278.82** | **\$42,242.74** |
-
-**Difference in total debt between scenarios:** **\$36.08** (Scenario B / avalanche is lower — less interest paid).
-
-**Leftover after subtracting the 401(k) recordkeeping & administrative fee (\$9.50):** **\$668.87**
-
-**Notes / anomalies flagged**
-- The recurring \$50 "TRANSFER TO SAVINGS" is categorized as a transfer, not an expense, so it is excluded from non‑debt expenses. If you instead treat it as an outflow, non‑debt expenses = \$1,984.03, leftover = **\$628.37**, and the fee‑adjusted amount = **\$618.87**.
-- Scenario B's extra to Meridian (\$650.40) exceeds its \$104.80 minimum, as intended; the installment loans were held to their scheduled amortization in both scenarios, so all scenario differences arise solely from the two credit cards.
-- Both scenarios use the identical total monthly debt outlay (\$1,340.26) and identical starting balances, so the \$36.08 gap equals the difference in interest accrued over July–December.
+**Flags / assumptions**
+- **Business‑day timing:** July 17, 2026 is a Friday and July 18 is a Saturday (not a business day). Under the disclosure, the \$225 becomes available the *first business day after deposit* — i.e., **Monday, July 20**, not Saturday July 18. I used the \$225 available amount as instructed for "the available check money"; the actual usable date is July 20.
+- **Take‑home pay:** I used actual net pay (\$3,952.66/mo); the tracker's "\$5,466.66" is gross salary (an error in the DRAFT).
+- **Non‑debt expenses** were taken from the recorded budget lines and held unchanged, as instructed.
+- Installment‑loan Dec balances are read directly from each servicer's amortization schedule and are identical across scenarios; only the two credit cards differ.
