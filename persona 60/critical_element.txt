@@ -1,0 +1,10 @@
+1. The amortization formula is used to calculate the new monthly payments for the car loan. It takes into account the new loan balance after contributing the suggested dollar amount from cash funds as well as the 7.9 percent rate on the loan.
+2. The response covers the user’s three courses of action. These include putting all cash funds towards the car loan, half of the cash funds towards the car loan, or none at all.
+3. The response provides answers that result in a total $0 balance in the car loan after 24 months. The car loan is not considered paid off unless the balance is zeroed out.
+4. The response follows the multiple paragraph format that is suggested by the user. The user may have explicitly defined it this way because it is how they will best understand. 
+5. The response should take into account that the user can afford an increased payment. The user has shared that they only have a certain surplus each month to spare.
+6. The response does not suggest that the user to refinance the car or suggest different spending habits. The user has clearly defined their objectives, minimizing variables as much as possible for an initial impression.
+7. The response is accurate in all calculations. Where approximations are made, they within a plus or minus 10 cent margin.
+8. The response provides the actual answers to the question. In this case, the response provides monthly payment calculations and ties it back to the remaining cash balance.
+9. Every paragraph provided should answer the user’s question rather than providing miscellaneous information. 
+10. The response should accurately reference the information that the user has provided in the prompt. For example, if the response references the cash balance in the account, it must be equal to $40,000 to start.

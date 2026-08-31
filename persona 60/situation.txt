@@ -1,0 +1,34 @@
+Nadia and Elliot Beaumont are married consultants in their mid-30s living in Chicago, with no kids and a combined income of about $360,000. Despite that income, they have accumulated only around $250,000 in investments and roughly $40,000 in cash, and they carry no student loans. Most of their investments sit in one taxable brokerage account that is badly over-concentrated, with a single industry stock making up about 46% of it, and it has never been rebalanced. Their $40,000 in cash sits idle in checking and savings earning almost nothing, while they carry a balance on a 24.99% travel credit card and still owe roughly $50,000 on a financed Porsche at 7.9%. Every dollar was decided in isolation, so their real question is whether that idle cash should pay down the car, stay as their only safety buffer, or go somewhere else entirely. 
+
+---------------------------
+
+Persona 60 - Nadia and Elliot Beaumont (Chicago consultants, four decisions that never talked to each other)
+| Background: Nadia and Elliot Beaumont are married consultants in their mid-30s living in Chicago, with no kids and a combined income of about $360,000. Despite that income they have accumulated only around $250,000 in investments and roughly $40,000 in cash, and they carry no student loans. Most of the investments sit in one taxable brokerage account that is badly over-concentrated - a single industry stock is about 46 percent of it - and it has never been rebalanced. The $40,000 in cash sits idle in checking and savings earning almost nothing, while they carry a balance on a 24.99 percent travel credit card and still owe roughly $50,000 on a financed Porsche at 7.9 percent. Every dollar was decided in isolation, so their real question is whether the idle cash should pay down the car, stay as their only safety buffer, or go somewhere else entirely. Their own note:
+
+PERSONAL NOTE - Beaumont household
+
+Nadia and Elliot Beaumont. Married five years, both in our thirties, no kids and none planned. We live in the West Loop and both consult - combined about $360,000 a year before tax. No student loans. On paper we should be in great shape. It doesn't feel that way.
+
+Here's what we actually have, and the thing is, none of it seems to talk to each other:
+
+Investments: roughly $250k total. Most of it is one joint brokerage account we opened years ago and basically never touched. It's all names from our own industry - the consulting/tech world we work in - and one of them has run up so much it's now almost half the account. We've never rebalanced. There are two small 401(k)s and an old rollover IRA from a job Nadia left; those just sit there too.
+Cash: about $40k sitting between checking and savings, earning basically nothing. It's the only real cushion we have.
+The car: I (Elliot) financed a Porsche a couple years ago. There's still a five-figure balance on it. Honestly I never questioned the rate when we signed.
+One travel credit card we lean on for trips; we carry a balance on it more months than not.
+The question we keep circling: should we take that idle $40k and just kill the car loan? Or is the cash better kept as our safety net - or put toward something else entirely? Would we have to sell some of that one big stock position to free up money, and does that cost us more than it saves? Every piece was decided on its own, and I have no idea if any of it is actually working together. We want one coherent answer, not four separate ones.
+
+E.B.
+Documents (in this folder):
+
+Pay statements for both spouses (combined approx. $360,000; 401(k) deferrals, benefit deductions, federal and Illinois withholding)
+Joint taxable brokerage statements: approx. $250,000 total with position weights, showing the single holding near 46 percent
+Lot-level cost-basis detail for the concentrated position, with acquisition dates and unrealized gain per lot
+Consolidated 1099 (INT, DIV): interest, ordinary and qualified dividends, capital-gain distributions
+Two 401(k) statements plus Nadia's rollover IRA statement: balances, contribution rates, fund lineups and available match
+Checking and savings statements totaling approx. $40,000, showing the interest rate actually earned
+Travel credit card statements: 24.99 percent APR, balance, minimum payment, rewards terms
+Auto loan statement and amortization schedule for the Porsche: approx. $50,000 balance, 7.9 percent APR, monthly payment, payoff date, any prepayment terms
+Credit card and checking activity for June
+Prior-year filed tax return
+Lease or housing records for the West Loop apartment
+Goal: Give them the single coherent answer they asked for, with the four pieces priced against each other. Start by ranking every available use of a dollar by its actual return: paying the 24.99 percent card is the highest guaranteed return available and should come before the car; any unmatched 401(k) room and any employer match left on the table belongs in the ranking too, because an unclaimed match beats every debt payoff. Then answer the car question directly: compute the interest saved by paying off roughly $50,000 at 7.9 percent versus keeping the cash, and say plainly that using the entire $40,000 cannot both retire the loan and preserve a buffer - so name the split. Set the buffer floor from their true monthly spending, calculated from twelve months of activity with travel and one-offs separated from ongoing costs, and note that two consultants with variable client income need more months of cushion than two salaried employees. Say what the idle cash is costing them per year against a high-yield alternative. Second, address the concentration on its own terms: state the real single-name exposure and note the compounding risk that the position is in the same industry that pays both their salaries, so a downturn hits income and portfolio together. Price the trim rather than assuming it: long-term and short-term capital gains lot by lot, the 3.8 percent net investment income tax at their income level, Illinois state tax, and after-tax proceeds - then answer whether selling to fund the car payoff costs more than the 7.9 percent it saves. Check asset location as well, since interest-bearing and high-turnover holdings belong in the retirement accounts and the rollover IRA is doing nothing by default. Third, name the real problem behind the numbers: $360,000 of income producing only $250,000 of investments means the savings rate, not the allocation, is the binding constraint - so compute their actual savings rate and the rate they need. Close with one sequenced plan: the card first, the buffer floor to hold in a high-yield account, whether and how much of the car to retire, whether to trim the concentrated position and by how much, the subscriptions to cut, and the monthly savings target that makes the rest work.
